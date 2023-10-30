@@ -1,0 +1,174 @@
+/* Defines all global css properties or testings*/
+
+/* This file contains basic properties, for adjustments like picture size in contents, please alter in own CSS file or in-line alternations*/
+
+/*  Testings */
+.border-test{
+    border: 2px solid rgba(255, 0, 0, 0.5);
+}
+
+
+
+/* Global Variables*/
+.icon-div {
+    margin: 0 auto;
+    padding: 0vw;
+    width: 40vw;
+}
+
+/* Font settings */
+.hidden{
+    visibility: hidden;
+}
+
+.content-fs{
+    font-size: 6px;
+}
+
+.topic-fs{
+    font-size: 15px;
+}
+
+@media screen and (min-width: 768px){
+    .content-fs{
+        font-size: 10px;
+    }
+
+    .topic-fs{
+        font-size: 18px;
+    }
+}
+
+
+.fs-6{
+    font-size: 4rem;
+}
+
+.fs-5{
+    font-size: 3rem;
+}
+
+.fs-4{
+    font-size: 2.5rem;
+}
+
+.fs-3{
+    font-size: 2rem;
+}
+
+.fs-2{
+    font-size: 1.5rem;
+}
+
+.fs-1{
+    font-size: 1rem;
+}
+
+.fs-0{
+    font-size: 0.5rem;
+}
+
+/* navbar settings */
+.navbar-btn-hover:hover{
+    background-color: darkorchid;
+}
+
+.nav-item-hover:hover{
+    background-color: darksalmon;
+}
+
+
+/* Carousel Settings */
+
+/* Carousel-img*/
+.carousel-height {
+    height: 35vw;
+}
+.carousel-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/* Content sizing */
+.set-content-pic-size {
+    width: 100%;
+    height: auto;
+}
+
+.hexagon{
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+
+/* container sizing */
+.div-md-max{
+    max-width:50%;
+}
+
+
+/* Tables */
+.same-width{
+    width: 33.3%;
+}
+
+.table-height{
+    height: 75px;
+}
+
+/* Clickable items settings */
+.cursor-pointer{
+    cursor: pointer;
+}
+
+/* Normal Links */
+.link-description{
+    font-size: 2px;
+}
+
+.link-topic{
+    font-size: 5px;
+}
+
+.link-underline-none{
+    text-decoration: none;
+}
+
+
+.ellipsis{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 768px){
+    .ellipsis-md{
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+
+
+/* Settings that adjusts with responsive devices*/
+/* Settings: 320px, 375px, 425px, 768px, 1024px, 1440px, 2560px*/
+
+@media screen and (min-width: 100px){}
+
+
+/* icon sizes */
+.pdf-icon-size{
+    width: 25px;
+    height: auto;
+}
+
+/* Hover Settings */
+.hoverable:hover {
+    background-color: aqua;
+}
+
+/* Member pic size settings */
+.member-pic {
+    height: 200px;
+    width: 200px;
+}

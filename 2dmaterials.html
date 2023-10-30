@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap 5.3.0 CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Global CSS properties-->
+    <link rel="stylesheet" href=".\styles\global.css">
+
+    <!-- research.css -->
+    <link rel="stylesheet" href=".\styles\research.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- icon container -->
+    <div class="container-fluid text-center">
+        <div class="container-sm icon-div">
+            <img src="./src/icons/AMD icon.jpg" alt="icon.jpg" class="w-100">
+        </div>
+    </div>
+
+    <!-- navbar container -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mx-5 my-2">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Topic of navbar-->
+            <a class="navbar-brand d-inline d-lg-none">Menu</a>
+            <!-- Toggle button -->
+            <button class="navbar-toggler navbar-btn-hover" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarCenteredExample" aria-controls="navbarCenteredExample" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+    
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
+                <!-- Left links -->
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./news.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./director.html">Director</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 active" aria-current="page" href="./research.html">Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./facilities.html">Facilities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./publication.html">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./member.html">Member</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+                <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+
+    <!-- Carousel container -->
+
+    <!-- Carousel Module 2 
+    
+    # Adjust Carousel image at /styles/home.css > .carousel-img
+    -->
+
+    <!-- Usage and modifcations explained in index.html file -->
+    <div id="carouselModule2" class="carousel slide carousel-fade m-3 w-75 mx-auto bg-dark" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselModule2" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselModule2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselModule2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active d-flex align-items-center justify-content-center overflow-hidden carousel-height"
+                data-bs-interval="5000">
+                <img src="/src/Test-pic-2.jpg" class="d-block carousel-img" alt="pic-2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-white fw-bold">Sample pic 1</h5>
+                </div>
+            </div>
+            <div class="carousel-item d-flex align-items-center justify-content-center overflow-hidden carousel-height"
+                data-bs-interval="5000">
+                <img src="/src/Test-pic-3.jpg" class="d-block carousel-img" alt="pic-3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-dark fw-bold">Sample pic 2</h5>
+                </div>
+            </div>
+            <div class="carousel-item d-flex align-items-center justify-content-center overflow-hidden carousel-height"
+                data-bs-interval="5000">
+                <img src="/src/Test-pic-4.jpg" class="d-block carousel-img" alt="pic-4">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-dark fw-bold">Sample pic 3</h5>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselModule2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselModule2" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- Navbar Submenu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mx-5 my-5">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Topic of navbar-->
+            <a class="navbar-brand d-inline d-lg-none">Catagories</a>
+            <!-- Toggle button -->
+            <button class="navbar-toggler navbar-btn-hover" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSubmenu" aria-controls="navbarSubmenu" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSubmenu">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 active" href="./2dmaterials.html">2D Materials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./perovskites.html">Perovskites</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./blue+green_energy.html">Blue / Green Energy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./electronics.html">Electronics</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Introduction Div -->
+    <div class="text-center mx-auto my-5 w-75">
+
+        <!-- Topic -->
+        <h2 class="mx-auto fw-bold mb-2"> 2D Materials </h6>
+
+            <!-- Description -->
+            <p class="fs-6 mx-auto my-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
+                necessitatibus suscipit blanditiis totam ducimus laborum aperiam sequi alias laboriosam temporibus,
+                placeat commodi, quod illum dolorum facere ab tempore debitis quos quaerat rem animi. Aperiam sapiente
+                laborum velit tempore dolore temporibus eius dignissimos! Modi quia architecto, dolore rem atque ipsum
+                amet!</p>
+    </div>
+
+    <!-- Navbar sub-submenu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mx-5 my-5">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Topic of navbar-->
+            <a class="navbar-brand d-inline d-lg-none">Materials</a>
+            <!-- Toggle button -->
+            <button class="navbar-toggler navbar-btn-hover" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSubsubmenu" aria-controls="navbarSubsubmenu" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+    
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSubsubmenu">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#graphene">Graphene</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#TMD">TMD</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Main Content Module 1 -->
+    <!-- Use this to duplicate -->
+    <div class="container w-75 mx-auto my-5" id="graphene">
+
+        <!-- Picture on right / text on lefy size, responsive design -->
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 d-flex flex-wrap align-items-center justify-content-center">
+                <img src="./src/Test-pic-4.jpg" alt="" class="img-fluid d-block set-content-pic-size overflow-hidden">
+            </div>
+            <div class="col-12 col-md-6 col-lg-8">
+
+                <!-- Paragraph Topic -->
+                <h3 class="text-center fw-bold my-2">Graphene</h2>
+
+                <!-- Paragraph -->
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore optio eius minima sint iste. Voluptatibus esse vero cupiditate excepturi sapiente voluptas nihil, ullam, provident accusantium velit nulla pariatur neque praesentium? Minus impedit pariatur sed at ipsum quas accusamus ut illo, labore, repellat alias iure commodi autem, ratione rem reiciendis eos perspiciatis porro voluptatum quis nihil? Perspiciatis sed suscipit, aliquam voluptates, earum reiciendis maiores tempora, nemo dolor nobis inventore. Libero laboriosam odit asperiores atque quidem ratione quaerat magni rerum, quae veritatis excepturi consectetur reprehenderit ipsam suscipit maiores animi cumque quas repellendus? Enim neque molestiae hic cum perferendis numquam vero, blanditiis voluptatem.</p>
+            </div>
+        </div>
+
+
+        <!-- Example of full paragraph row-->
+        <div class="row my-1">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium enim saepe unde ab quaerat aut optio quos, fuga quibusdam aliquid alias, porro amet quo laboriosam, eius veritatis beatae voluptatem repudiandae. Rerum, libero! Ullam quis assumenda autem temporibus aliquid dignissimos facilis facere, perferendis inventore veritatis possimus, eos voluptatibus maxime nisi delectus quia illum dolor a rem repellat voluptatem beatae. Ab rerum, adipisci, magnam numquam quasi atque illo expedita rem earum repudiandae sequi. Repellendus officiis expedita nisi fugit amet quae ipsam dolorem animi, consequuntur hic accusamus! Maiores ipsum, sunt obcaecati tenetur illo quia voluptas ratione nam, consequatur veniam laboriosam minus in repellendus.</p>
+        </div>
+
+        <!-- Paragraph left / picture right, responsive design -->
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-8">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore optio eius minima sint iste. Voluptatibus
+                        esse vero cupiditate excepturi sapiente voluptas nihil, ullam, provident accusantium velit nulla pariatur
+                        neque praesentium? Minus impedit pariatur sed at ipsum quas accusamus ut illo, labore, repellat alias iure
+                        commodi autem, ratione rem reiciendis eos perspiciatis porro voluptatum quis nihil? Perspiciatis sed
+                        suscipit, aliquam voluptates, earum reiciendis maiores tempora, nemo dolor nobis inventore. Libero
+                        laboriosam odit asperiores atque quidem ratione quaerat magni rerum, quae veritatis excepturi consectetur
+                        reprehenderit ipsam suscipit maiores animi cumque quas repellendus? Enim neque molestiae hic cum perferendis
+                        numquam vero, blanditiis voluptatem.</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex flex-wrap align-items-center justify-content-center">
+                <img src="./src/Test-pic-4.jpg" alt="" class="img-fluid d-block set-content-pic-size overflow-hidden">
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <!-- Footer Module 2 -->
+    <footer class="text-center text-muted" style="background-color:blueviolet;">
+        <div class="container p-3 text-center text-white">
+            <h6>The Chen Research Group</h6>
+            <h6>Atomic Materials and Devices Lab</h6>
+            <h6>National Taiwan University</h6>
+            <br>
+            <p class="text-white"><i class="fa fa-envelope me-3 "></i> abcdefg@gmail.com</p>
+            <p class="text-white"><i class="fa fa-phone me-3"></i> +886 0227137842</p>
+            <div class="text-white"><i class="fa fa-copyright me-3"></i>Copyright 2023</div>
+        </div>
+    </footer>
+
+
+    <!-- Popper.js-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap.js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap 5.3.0 CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Global CSS properties-->
+    <link rel="stylesheet" href=".\styles\global.css">
+</head>
+
+<body>
+    <!-- icon container -->
+    <div class="container-fluid text-center">
+        <div class="container-sm icon-div">
+            <img src="./src/icons/AMD icon.jpg" alt="icon.jpg" class="w-100">
+        </div>
+    </div>
+
+    <!-- navbar container -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mx-5 my-2">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Topic of navbar-->
+            <a class="navbar-brand d-inline d-lg-none">Menu</a>
+            <!-- Toggle button -->
+            <button class="navbar-toggler navbar-btn-hover" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarCenteredExample" aria-controls="navbarCenteredExample" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
+                <!-- Left links -->
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item fs-5">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./news.html">News</a>
+                    </li>
+                    <li class="nav-item fs-5">
+                        <a class="nav-link" href="./director.html">Director</a>
+                    </li>
+                    <li class="nav-item fs-5">
+                        <a class="nav-link" href="./research.html">Research</a>
+                    </li>
+                    <li class="nav-item fs-5">
+                        <a class="nav-link" href="./facilities.html">Facilities</a>
+                    </li>
+                    <li class="nav-item fs-5">
+                        <a class="nav-link" href="./publication.html">Publications</a>
+                    </li>
+                    <li class="nav-item fs-5">
+                        <a class="nav-link active" aria-current="page" href="./member.html">Member</a>
+                    </li>
+                    <li class="nav-item fs-5">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+                <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+
+    <!-- Carousel container -->
+
+    <!-- Carousel Module 2 
+    
+    # Adjust Carousel image at /styles/home.css > .carousel-img
+    -->
+
+    <div id="carouselModule2" class="carousel slide carousel-fade m-3 w-75 mx-auto bg-dark" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselModule2" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselModule2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselModule2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active d-flex align-items-center justify-content-center overflow-hidden carousel-height"
+                data-bs-interval="5000">
+                <img src="/src/group-test-pic.jpg" class="d-block carousel-img" alt="pic-2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-white fw-bold">Sample pic 1</h5>
+                </div>
+            </div>
+            <div class="carousel-item d-flex align-items-center justify-content-center overflow-hidden carousel-height"
+                data-bs-interval="5000">
+                <img src="/src/group-test-pic-2.jpg" class="d-block carousel-img" alt="pic-3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-dark fw-bold">Sample pic 2</h5>
+                </div>
+            </div>
+            <div class="carousel-item d-flex align-items-center justify-content-center overflow-hidden carousel-height"
+                data-bs-interval="5000">
+                <img src="/src/group-test-pic-3.jpg" class="d-block carousel-img" alt="pic-4">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-white fw-bold">Sample pic 3</h5>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselModule2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselModule2" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- Introduction Div -->
+    <div class="text-center mx-auto my-5 w-75">
+        <h2 class="mx-auto fw-bold mb-2"> Our Members </h6>
+            <p class="mx-auto text-center fs-6 my-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
+                necessitatibus suscipit blanditiis totam ducimus laborum aperiam sequi alias laboriosam temporibus,
+                placeat commodi, quod illum dolorum facere ab tempore debitis quos quaerat rem animi. Aperiam sapiente
+                laborum velit tempore dolore temporibus eius dignissimos! Modi quia architecto, dolore rem atque ipsum
+                amet!</p>
+    </div>
+
+    <!-- This requires same height/width info for all pictures, otherwise the responsive design breaks or get partial overflow hidden-->
+    <!-- Fixing this requires fixing img size, which makes img-fluid useless -->
+
+
+    <!-- Post-doc Members -->
+    <!-- Border effect test -->
+    <div class="container mx-auto my-5 w-75">
+        <h4 class="mx-auto fw-bold mb-4"><i class="fa fa-list me-3" aria-hidden="false"></i> Post-Doctoral Members</h2>
+        <div class="container-fluid mb-2">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5 shadow p-2 rounded" onclick="location.href='#'">
+                    <div class="d-flex flex-wrap align-items-center justify-content-center">
+                        <img src="./src/Test-pic-2.jpg" alt="" class="img-fluid overflow-hidden member-pic">
+                    </div>
+                    <h6 class="mx-auto fw-bold m-2 text-center"> Po-Shien Wu</h6>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5 shadow p-2 rounded" onclick="location.href='#'">
+                    <div class="d-flex flex-wrap align-items-center justify-content-center">
+                        <img src="./src/Test-pic-2.jpg" alt="" class="img-fluid overflow-hidden member-pic">
+                    </div>
+                    <h6 class="mx-auto fw-bold m-2 text-center"> Po-Shien Wu</h6>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5 shadow p-2 rounded" onclick="location.href='#'">
+                    <div class="d-flex flex-wrap align-items-center justify-content-center">
+                        <img src="./src/Test-pic-2.jpg" alt="" class="img-fluid overflow-hidden member-pic">
+                    </div>
+                    <h6 class="mx-auto fw-bold m-2 text-center"> Po-Shien Wu</h6>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5 shadow p-2 rounded" onclick="location.href='#'">
+                    <div class="d-flex flex-wrap align-items-center justify-content-center">
+                        <img src="./src/Test-pic-2.jpg" alt="" class="img-fluid overflow-hidden member-pic">
+                    </div>
+                    <h6 class="mx-auto fw-bold m-2 text-center"> Po-Shien Wu</h6>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5 shadow p-2 rounded" onclick="location.href='#'">
+                    <div class="d-flex flex-wrap align-items-center justify-content-center">
+                        <img src="./src/Test-pic-2.jpg" alt="" class="img-fluid overflow-hidden member-pic">
+                    </div>
+                    <h6 class="mx-auto fw-bold m-2 text-center"> Po-Shien Wu</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PhD Members -->
+    <div class="container mx-auto my-5 w-75">
+        <h4 class="mx-auto fw-bold mb-4"><i class="fa fa-list me-3" aria-hidden="false"></i> PhD Members</h2>
+            <div class="container-fluid mb-2">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5 shadow p-2 rounded" onclick="location.href='#'">
+                        <div class="d-flex flex-wrap align-items-center justify-content-center">
+                            <img src="./src/Test-pic-2.jpg" alt="" class="img-fluid overflow-hidden member-pic">
+                        </div>
+                        <h6 class="mx-auto fw-bold m-2 text-center"> Po-Shien Wu</h6>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5 shadow p-2 rounded" onclick="location.href='#'">
+                        <div class="d-flex flex-wrap align-items-center justify-content-center">
+                            <img src="./src/Test-pic-2.jpg" alt="" class="img-fluid overflow-hidden member-pic">
+                        </div>
+                        <h6 class="mx-auto fw-bold m-2 text-center"> Po-Shien Wu</h6>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5 shadow p-2 rounded" onclick="location.href='#'">
+                        <div class="d-flex flex-wrap align-items-center justify-content-center">
+                            <img src="./src/Test-pic-2.jpg" alt="" class="img-fluid overflow-hidden member-pic">
+                        </div>
+                        <h6 class="mx-auto fw-bold m-2 text-center"> Po-Shien Wu</h6>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5 shadow p-2 rounded" onclick="location.href='#'">
+                        <div class="d-flex flex-wrap align-items-center justify-content-center">
+                            <img src="./src/Test-pic-2.jpg" alt="" class="img-fluid overflow-hidden member-pic">
+                        </div>
+                        <h6 class="mx-auto fw-bold m-2 text-center"> Po-Shien Wu</h6>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5 shadow p-2 rounded" onclick="location.href='#'">
+                        <div class="d-flex flex-wrap align-items-center justify-content-center">
+                            <img src="./src/Test-pic-2.jpg" alt="" class="img-fluid overflow-hidden member-pic">
+                        </div>
+                        <h6 class="mx-auto fw-bold m-2 text-center"> Po-Shien Wu</h6>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+    <!-- MEng Members -->
+    <div class="container mx-auto my-5 w-75">
+        <h4 class="mx-auto fw-bold mb-4"><i class="fa fa-list me-3" aria-hidden="false"></i> Masters</h2>
+        <div class="container-fluid mb-2">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5 shadow p-2 rounded" onclick="location.href='#'">
+                    <div class="d-flex flex-wrap align-items-center justify-content-center">
+                        <img src="./src/Test-pic-2.jpg" alt="" class="img-fluid overflow-hidden member-pic">
+                    </div>
+                    <h6 class="mx-auto fw-bold m-2 text-center"> Po-Shien Wu</h6>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5 shadow p-2 rounded" onclick="location.href='#'">
+                    <div class="d-flex flex-wrap align-items-center justify-content-center">
+                        <img src="./src/Test-pic-2.jpg" alt="" class="img-fluid overflow-hidden member-pic">
+                    </div>
+                    <h6 class="mx-auto fw-bold m-2 text-center"> Po-Shien Wu</h6>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5 shadow p-2 rounded" onclick="location.href='#'">
+                    <div class="d-flex flex-wrap align-items-center justify-content-center">
+                        <img src="./src/Test-pic-2.jpg" alt="" class="img-fluid overflow-hidden member-pic">
+                    </div>
+                    <h6 class="mx-auto fw-bold m-2 text-center"> Po-Shien Wu</h6>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5 shadow p-2 rounded" onclick="location.href='#'">
+                    <div class="d-flex flex-wrap align-items-center justify-content-center">
+                        <img src="./src/Test-pic-2.jpg" alt="" class="img-fluid overflow-hidden member-pic">
+                    </div>
+                    <h6 class="mx-auto fw-bold m-2 text-center"> Po-Shien Wu</h6>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5 shadow p-2 rounded" onclick="location.href='#'">
+                    <div class="d-flex flex-wrap align-items-center justify-content-center">
+                        <img src="./src/Test-pic-2.jpg" alt="" class="img-fluid overflow-hidden member-pic">
+                    </div>
+                    <h6 class="mx-auto fw-bold m-2 text-center"> Po-Shien Wu</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- BEng Members -->
+    <div class="container mx-auto my-5 w-75">
+        <h4 class="mx-auto fw-bold mb-4"><i class="fa fa-list me-3" aria-hidden="false"></i>Undergraduates</h2>
+        <div class="container-fluid mb-2">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5 shadow p-2 rounded" onclick="location.href='#'">
+                    <div class="d-flex flex-wrap align-items-center justify-content-center">
+                        <img src="./src/Test-pic-2.jpg" alt="" class="img-fluid overflow-hidden member-pic">
+                    </div>
+                    <h6 class="mx-auto fw-bold m-2 text-center"> Po-Shien Wu</h6>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5 shadow p-2 rounded" onclick="location.href='#'">
+                    <div class="d-flex flex-wrap align-items-center justify-content-center">
+                        <img src="./src/Test-pic-2.jpg" alt="" class="img-fluid overflow-hidden member-pic">
+                    </div>
+                    <h6 class="mx-auto fw-bold m-2 text-center"> Po-Shien Wu</h6>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5 shadow p-2 rounded" onclick="location.href='#'">
+                    <div class="d-flex flex-wrap align-items-center justify-content-center">
+                        <img src="./src/Test-pic-2.jpg" alt="" class="img-fluid overflow-hidden member-pic">
+                    </div>
+                    <h6 class="mx-auto fw-bold m-2 text-center"> Po-Shien Wu</h6>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5 shadow p-2 rounded" onclick="location.href='#'">
+                    <div class="d-flex flex-wrap align-items-center justify-content-center">
+                        <img src="./src/Test-pic-2.jpg" alt="" class="img-fluid overflow-hidden member-pic">
+                    </div>
+                    <h6 class="mx-auto fw-bold m-2 text-center"> Po-Shien Wu</h6>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-5 shadow p-2 rounded" onclick="location.href='#'">
+                    <div class="d-flex flex-wrap align-items-center justify-content-center">
+                        <img src="./src/Test-pic-2.jpg" alt="" class="img-fluid overflow-hidden member-pic">
+                    </div>
+                    <h6 class="mx-auto fw-bold m-2 text-center"> Po-Shien Wu</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Graduated Members -->
+    <div class="container mx-auto my-5 w-75">
+        <h4 class="mx-auto fw-bold mb-4"><i class="fa fa-list me-3" aria-hidden="false"></i>Alumni</h2>
+        <div class="container-fluid mb-2 justify-content-center">
+            <table class="table table-white table-hover table-borderless table-striped table-responsive">
+                <thead class="text-center align-middle">
+                    <tr>
+                        <th scope="col" class="same-width">Name</th>
+                        <th scope="col" class="same-width">Current Position</th>
+                        <th scope="col" class="same-width">Year Of Graduation</th>
+                    </tr>
+                </thead>
+                <tbody class="text-center align-middle">
+                    <tr class="table-height">
+                        <td>Yin Cheng Lin</td>
+                        <td>Undergraduate Student</td>
+                        <td>2025</td>
+                    </tr>
+                    <tr class="table-height">
+                        <td>Tommy Lin</td>
+                        <td>UGs</td>
+                        <td>2050</td>
+                    </tr>
+                    <tr class="table-height">
+                        <td>Chen Chang</td>
+                        <td>Research Assistant</td>
+                        <td>2024</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <!-- Footer Module 2 -->
+    <footer class="text-center text-muted" style="background-color:blueviolet;">
+        <div class="container p-3 text-center text-white">
+            <h6>The Chen Research Group</h6>
+            <h6>Atomic Materials and Devices Lab</h6>
+            <h6>National Taiwan University</h6>
+            <br>
+            <p class="text-white"><i class="fa fa-envelope me-3 "></i> abcdefg@gmail.com</p>
+            <p class="text-white"><i class="fa fa-phone me-3"></i> +886 0227137842</p>
+            <div class="text-white"><i class="fa fa-copyright me-3"></i>Copyright 2023</div>
+        </div>
+    </footer>
+
+
+    <!-- Popper.js-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap.js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap 5.3.0 CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Global CSS properties-->
+    <link rel="stylesheet" href=".\styles\global.css">
+
+    <!-- news.css -->
+    <link rel="stylesheet" href=".\styles\news.css">
+    <title>Document</title>
+</head>
+
+
+
+<body>
+    <!-- icon container -->
+    <div class="container-fluid text-center">
+        <div class="container-sm icon-div">
+            <img src="./src/icons/AMD icon.jpg" alt="icon.jpg" class="w-100">
+        </div>
+    </div>
+
+    <!-- navbar container -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mx-5 my-2">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Topic of navbar-->
+            <a class="navbar-brand d-inline d-lg-none">Menu</a>
+            <!-- Toggle button -->
+            <button class="navbar-toggler navbar-btn-hover" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarCenteredExample" aria-controls="navbarCenteredExample" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
+                <!-- Left links -->
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 active" aria-current="page" href="./news.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./director.html">Director</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./research.html">Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./facilities.html">Facilities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./publication.html">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./member.html">Member</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+                <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+
+
+    <!-- News Header -->
+    <div class="container w-75 mx-auto my-5 fw-bold fs-2 border-bottom text-center">News</div>
+
+
+    <!-- 
+    Below is the start of the news section 
+
+    Copy the news modules to allow duplication of modules
+
+    1. Copy the post html files in post folder to ensure synchronized design
+    
+    2. Copy the relative path and replace it into the onclic="location.href=' relative path here '"
+
+    3. Change other information if necessary
+
+    -->
+
+
+    <!-- Clickable News Module 20230819 -->
+    <!-- Change the onclick hyperlink to the relative path of the post in ./posts/file_name.html -->
+    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded cursor-pointer" onclick="location.href='./posts/post-1.html'">
+        <div class="container-fluid">
+            
+            <!-- Topic -->
+            <h5 class="mb-0">New PhD Position Available!</h5>
+
+            <!-- Date -->
+            <p class="text-info mb-2">2023.08.19</p>
+
+            <!-- Brief Description -->
+            <p class="mb-0">We are looking for outstanding and enthusiastic scientists / engineers to join us and explore the frontier of low-dimensional physics!</p>
+            <p class="text-info my-2">Click to see more...</p>
+        </div>
+    </div>
+
+    <!-- Clickable News Module 20230814 -->
+    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded cursor-pointer"
+        onclick="location.href='./posts/post-2.html'">
+        <div class="container-fluid">
+            <h5 class="mb-0">Another Evaporation Completed With 60nm Au!</h5>
+            <p class="text-info mb-2">2023.08.14</p>
+            <p class="mb-0">File download showcase here. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis laborum deleniti, explicabo, ducimus soluta enim minima dolor exercitationem esse odio non aut accusantium quos dolore reprehenderit! Dolorum harum numquam nam in excepturi qui consequatur laborum, est ullam obcaecati soluta error accusantium perferendis animi odio, commodi nisi. Ipsam vel quam perspiciatis, excepturi debitis beatae alias dolor adipisci soluta hic at natus, consectetur quaerat eveniet sit a delectus neque fugit eius. A natus nihil sequi velit quis asperiores tempora expedita et dolorem corrupti, assumenda libero voluptas earum aliquam labore quo impedit deleniti consequuntur veritatis ex vel est. Perspiciatis, minus veniam. Dicta, asperiores.</p>
+            <p class="text-info my-2">Click to see more...</p>
+        </div>
+    </div>
+
+
+
+    <!-- Footer Module 2 -->
+    <footer class="text-center text-muted" style="background-color:blueviolet;">
+        <div class="container p-3 text-center text-white">
+            <h6>The Chen Research Group</h6>
+            <h6>Atomic Materials and Devices Lab</h6>
+            <h6>National Taiwan University</h6>
+            <br>
+            <p class="text-white"><i class="fa fa-envelope me-3 "></i> abcdefg@gmail.com</p>
+            <p class="text-white"><i class="fa fa-phone me-3"></i> +886 0227137842</p>
+            <div class="text-white"><i class="fa fa-copyright me-3"></i>Copyright 2023</div>
+        </div>
+    </footer>
+
+    <!-- Popper.js-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap.js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
