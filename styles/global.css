@@ -169,6 +169,14 @@
 
 /* Member pic size settings */
 .member-pic {
-    height: 200px;
-    width: 200px;
+    height: 80%;
+    max-width: 80%;
+}
+
+.member-div{
+    height: 300px;
+}
+
+.member-name{
+    width: 100%;
 }
