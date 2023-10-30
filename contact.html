@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap 5.3.0 CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Global CSS properties-->
+    <link rel="stylesheet" href=".\styles\global.css">
+
+    <!-- home.css -->
+    <link rel="stylesheet" href=".\styles\home.css">
+    <title>Document</title>
+</head>
+
+
+
+<body>
+    <!-- icon container -->
+    <div class="container-fluid text-center">
+        <div class="container-sm icon-div">
+            <img src="./src/icons/AMD icon.jpg" alt="icon.jpg" class="w-100">
+        </div>
+    </div>
+
+    <!-- navbar container -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mx-5 my-2">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Topic of navbar-->
+            <a class="navbar-brand d-inline d-lg-none">Menu</a>
+            <!-- Toggle button -->
+            <button class="navbar-toggler navbar-btn-hover" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarCenteredExample" aria-controls="navbarCenteredExample" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
+                <!-- Left links -->
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./news.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./director.html">Director</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./research.html">Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./facilities.html">Facilities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./publication.html">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./member.html">Member</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 active" aria-current="page" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+                <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+
+
+    <!-- Contact Module with form submission 1 -->
+    <!--
+    <div class="container w-75 shadow p-2 my-5 rounded">
+        <div class="container text-center fw-bold fs-3">Contact Us</div>
+        <div class="container w-75 mx-auto my-4 border-test justify-content-center align-items-center">
+            <form action="https://formsubmit.co/b09507035@g.ntu.edu.tw" method="POST">
+                
+                <input type="text" name="_honey" style="display: none;">
+
+                <input type="hidden" name="_captcha" value="false">
+
+                <input type="hidden" name="_next" value="./success.html">
+
+                <div class="my-3">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input type="text" name="name" id="name" class="form-control" placeholder="" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Type your message here...</label>
+                    <textarea class="form-control" name="message" id="message" rows="8" required></textarea>
+                </div>
+                <div class="mb-3 text-center">
+                    <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+-->
+
+
+    <!-- Form Submission with php solution -->
+    <!--
+    <div class="container w-75 shadow p-2 my-5 rounded">
+        <div class="container text-center fw-bold fs-3">Contact Us</div>
+        <div class="container w-75 mx-auto my-4 border-test justify-content-center align-items-center">
+            <form action="mail.php" method="POST">
+                <div class="my-3">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input type="text" name="name" id="name" class="form-control" placeholder="" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Type your message here...</label>
+                    <textarea class="form-control" name="message" id="message" rows="8" required></textarea>
+                </div>
+                <div class="mb-3 text-center">
+                    <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+-->
+
+
+    <!-- Contact us div with mailto -->
+    <div class="container w-75 shadow p-2 my-5 rounded">
+        <div class="container w-20 mx-auto m-3 overflow-hidden text-center align-items-center justify-content-center">
+            <img src="./src/group-test-pic-3.jpg" alt="" class="rounded" style="max-height: 300px;">
+        </div>
+
+        <div class="container text-center fw-bold fs-3 mb-2">Contact Us</div>
+        <p class="text-center">We look forward to hear from you!</p>
+        <p class="text-center">Contact us now to get to know more about our research!</p>
+        <div class="container w-75 mx-auto my-4 justify-content-center align-items-center">
+            <p class="text-dark text-center"><i class="fa fa-envelope me-3 "></i> abcdefg@gmail.com</p>
+            <p class="text-dark text-center"><i class="fa fa-phone me-3"></i> +886 0227137842</p>
+            <form action="mailto:f7u23dg4e@gmail.com?subject=WebpageFormSubmission" method="get" enctype="text/plain">
+                <div class="mb-3 text-center">
+                    <button type="submit" name="submit" class="btn btn-primary">Contact Us</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!-- Footer Module 2 -->
+    <footer class="text-center text-muted" style="background-color:blueviolet;">
+        <div class="container p-3 text-center text-white">
+            <h6>The Chen Research Group</h6>
+            <h6>Atomic Materials and Devices Lab</h6>
+            <h6>National Taiwan University</h6>
+            <br>
+            <p class="text-white"><i class="fa fa-envelope me-3 "></i> abcdefg@gmail.com</p>
+            <p class="text-white"><i class="fa fa-phone me-3"></i> +886 0227137842</p>
+            <div class="text-white"><i class="fa fa-copyright me-3"></i>Copyright 2023</div>
+        </div>
+    </footer>
+
+    <!-- Popper.js-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap.js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
