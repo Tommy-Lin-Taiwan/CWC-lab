@@ -180,3 +180,8 @@
 .member-name{
     width: 100%;
 }
+
+/* facilities */
+.facility-pic{
+    max-height: 35vh;
+}
