@@ -153,8 +153,6 @@
 /* Settings that adjusts with responsive devices*/
 /* Settings: 320px, 375px, 425px, 768px, 1024px, 1440px, 2560px*/
 
-@media screen and (min-width: 100px){}
-
 
 /* icon sizes */
 .pdf-icon-size{
@@ -168,7 +166,7 @@
 }
 
 /* Member pic size settings */
-.member-pic {
+.member-pic{
     height: 80%;
     max-width: 80%;
 }
@@ -176,6 +174,7 @@
 .member-div{
     height: 300px;
 }
+
 
 .member-name{
     width: 100%;
