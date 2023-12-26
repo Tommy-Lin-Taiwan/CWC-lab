@@ -10,11 +10,20 @@
 
 
 /* Global Variables*/
-.icon-div {
-    margin: 0 auto;
-    padding: 0vw;
-    width: 40vw;
+@media screen (min-width: 768px){
+    .icon-div{
+        margin: 0 auto;
+        padding: 0vx;
+        width: 40vw;
+    }
 }
+
+.icon-div{
+    margin: 0 auto;
+    padding: 0vx;
+    width: 80vw;
+}
+
 
 /* Font settings */
 .hidden{
