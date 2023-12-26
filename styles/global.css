@@ -10,7 +10,7 @@
 
 
 /* Global Variables*/
-@media screen (min-width: 768px){
+@media screen and (min-width: 768px){
     .icon-div{
         margin: 0 auto;
         padding: 0vx;
