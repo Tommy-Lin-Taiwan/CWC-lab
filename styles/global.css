@@ -18,11 +18,14 @@
     }
 }
 
-.icon-div{
+@media screen and (max-width: 767px){
+   .icon-div{
     margin: 0 auto;
     padding: 0vx;
     width: 80vw;
+    } 
 }
+
 
 
 /* Font settings */
