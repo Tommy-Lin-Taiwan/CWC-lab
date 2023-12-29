@@ -9,6 +9,10 @@
 .publication-topic{
     max-height: 20%;
 }
+.publication-topic-link{
+    text-decoration: none;
+    color: black;
+}
 .publication-description{
     max-height: 50%;
 }
@@ -22,6 +26,18 @@
     margin: 0px;
     padding: 0px;
 }
+
+
+@media screen and (max-width: 767px){
+    .publication-topic-fs{
+        font-size: 10px;
+    }
+
+    .publication-description{
+        display: none;
+    }
+}
+    
 
 
 
