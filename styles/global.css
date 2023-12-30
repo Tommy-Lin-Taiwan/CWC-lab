@@ -240,9 +240,16 @@
 }
 
 .group-pic{
-    max-width: 75%;
+    max-width: 90%;
     height: auto;
     border-radius: 10%;
+}
+
+@media screen and (max-width: 768px){
+    .group-pic{
+        max-width: 100%;
+        border-radius: 5%;
+    }
 }
 
 /* facilities */
