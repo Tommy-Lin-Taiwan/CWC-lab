@@ -112,24 +112,42 @@
     text-align: left;
 }
 
-.carousel-caption-topic {
-    font-size: 14px;
-}
-
-.carousel-caption-content {
-    font-size: 10px;
-}
-
 .carousel-indicators {
-    margin-bottom: 0;
+    margin-bottom: 1px;
 }
 
-.carousel-indicators [data-bs-target] {
-    width: 5px;
-    height: 5px;
-    border-radius: 100%;
+@media screen and (max-width: 768px){
+    .carousel-caption-topic {
+        font-size: 14px;
+    }
+    
+    .carousel-caption-content {
+        font-size: 10px;
+    }
+    
+    .carousel-indicators [data-bs-target] {
+        width: 5px;
+        height: 5px;
+        border-radius: 100%;
+    }
 }
 
+@media screen and (min-width: 768px) {
+    .carousel-caption-topic {
+        font-size: 20px;
+    }
+
+    .carousel-caption-content {
+        font-size: 14px;
+        margin-bottom: 5%;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+    }
+}
 
 /* Content sizing */
 .set-content-pic-size {
@@ -219,6 +237,12 @@
 
 .member-name{
     width: 100%;
+}
+
+.group-pic{
+    max-width: 75%;
+    height: auto;
+    border-radius: 10%;
 }
 
 /* facilities */
