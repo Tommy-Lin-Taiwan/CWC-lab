@@ -27,10 +27,36 @@
     padding: 0px;
 }
 
+.content-fs {
+    font-size: 10px;
+}
+
+.topic-fs {
+    font-size: 15px;
+}
+
+.topic-color{
+    color: rgb(164, 33, 224)
+}
+
+@media screen and (min-width: 768px) {
+    .content-fs {
+        font-size: 10px;
+    }
+
+    .topic-fs {
+        font-size: 18px;
+    }
+
+    .publication-topic-fs{
+        font-size: 18px;
+    }
+}
+
 
 @media screen and (max-width: 767px){
     .publication-topic-fs{
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .publication-description{
