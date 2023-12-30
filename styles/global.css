@@ -26,39 +26,6 @@
     } 
 }
 
-
-.carousel-caption{
-    top: auto;
-    bottom: 0;
-    width: 80%;
-    right: auto;
-    left: 10%;
-}
-
-.carousel-caption-inner{
-    text-align: left;
-    border: 2px solid yellow;
-}
-
-.carousel-caption-topic{
-    font-size: 12px;
-}
-
-.carousel-caption-content{
-    font-size: 8px;
-}
-
-.carousel-indicators{
-    position: absolute;
-    left: 45%;
-}
-
-.carousel-indicators li{
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-}
-
 /* Font settings */
 .hidden{
     visibility: hidden;
@@ -121,6 +88,7 @@
 }
 
 
+
 /* Carousel Settings */
 
 /* Carousel-img*/
@@ -128,8 +96,38 @@
     height: 35vw;
 }
 .carousel-img{
-    max-width: 100%;
+    max-width: 80%;
     max-height: 100%;
+}
+
+.carousel-caption {
+    top: auto;
+    bottom: 0;
+    width: 80%;
+    right: auto;
+    left: 10%;
+}
+
+.carousel-caption-inner {
+    text-align: left;
+}
+
+.carousel-caption-topic {
+    font-size: 14px;
+}
+
+.carousel-caption-content {
+    font-size: 10px;
+}
+
+.carousel-indicators {
+    margin-bottom: 0;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
 }
 
 
