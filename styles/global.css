@@ -27,6 +27,37 @@
 }
 
 
+.carousel-caption{
+    top: auto;
+    bottom: 0;
+    width: 80%;
+    right: auto;
+    left: 10%;
+}
+
+.carousel-caption-inner{
+    text-align: left;
+    border: 2px solid yellow;
+}
+
+.carousel-caption-topic{
+    font-size: 12px;
+}
+
+.carousel-caption-content{
+    font-size: 8px;
+}
+
+.carousel-indicators{
+    position: absolute;
+    left: 45%;
+}
+
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
 
 /* Font settings */
 .hidden{
