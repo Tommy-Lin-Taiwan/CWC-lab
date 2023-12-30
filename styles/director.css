@@ -1,4 +1,4 @@
-@media screen and (min-width: 100px){
+@media screen and (min-width: 100px) and (max-width: 768px){
     .table-director-width{
         width: 100%;
     }
@@ -19,9 +19,13 @@
         width: 60%;
         height: auto;
     }
+
+    .research-interest{
+        text-align: center;
+    }
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) and (max-width: 992px){
     .table-director-width{
         width: 75%;
     }
@@ -34,9 +38,15 @@
         width: 80%;
         height: auto;
     }
+
+    .research-interest{
+        text-align: center;
+        width: 75%;
+        margin: auto;
+    }
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) and (max-width: 1200px){
     .table-director-width{
         width: 50%;
     }
@@ -49,9 +59,13 @@
         width: 100%;
         height: auto;
     }
+    .research-interest{
+        margin: auto;
+        width: 50%;
+    }
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) and (max-width: 1500px){
     .table-director-width{
         width: 40%;
     }
@@ -62,6 +76,11 @@
 
     .content-director-width{
         width: 80%;
+    }
+    
+    .research-interest{
+        margin: auto;
+        width: 50%;
     }
 }
 

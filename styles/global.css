@@ -18,12 +18,29 @@
     }
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 768px){
    .icon-div{
     margin: 0 auto;
     padding: 0vx;
     width: 80vw;
     } 
+}
+
+/* Container sizing setting */
+@media screen and (max-width: 1024px){
+    .w-50-m .w-75-m{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .w-50-m{
+        width: 50%;
+    }
+
+    .w-75-m{
+        width: 75%;
+    }
 }
 
 /* Font settings */
