@@ -248,7 +248,7 @@
                     </div>
 
                     <!-- Enter citation here -->
-                    <p class="content-fs p-0 mb-1 topic-color"><i>ACS Nano</i>     , 17, 3, 2653–2660 (2023)</p>
+                    <p class="content-fs p-0 mb-1 citation-color"><i>ACS Nano</i>     , 17, 3, 2653–2660 (2023)</p>
 
                     <div class="d-inline">
                         <!-- Enter Author List Here-->
@@ -262,7 +262,10 @@
 
 
     <!-- 2022 Publications -->
-    <div class="container w-75 mx-auto my-4 fw-bold fs-4 border-bottom" id="2022">2022
+    <div class="container w-75 mx-auto my-4 fw-bold fs-4 border-bottom" id="2022">
+        <h4 class="d-inline fw-bold">2022</h4>
+        <button class="btn btn-sm btn-outline-primary float-end" id="2022_selector" onclick='$(".2022").show(); $("#2022_selector").hide(); $("#2022_antiselector").show()'>Show all publications</button>
+        <button class="btn btn-sm btn-outline-primary hide-not-selected float-end" id="2022_antiselector" onclick='$(".2022").hide(); $("#2022_antiselector").hide(); $("#2022_selector").show()'>Hide publications</button>
     </div>
 
 
@@ -270,7 +273,7 @@
     <!-- ACS Appl. Mater. Interfaces 2022, 14, 17, 19818–19825 -->
 
 
-    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded">
+    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded not-selected 2022">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-3 d-none d-md-flex flex-wrap align-items-center justify-content-center ">
@@ -291,7 +294,7 @@
                     </div>
     
                     <!-- Enter citation here -->
-                    <p class="content-fs p-0 mb-1 topic-color"><i>ACS Appl. Mater. Interfaces</i>, 14, 17, 19818–19825 (2022)</p>
+                    <p class="content-fs p-0 mb-1 citation-color"><i>ACS Appl. Mater. Interfaces</i>, 14, 17, 19818–19825 (2022)</p>
     
                     <div class="d-inline">
                         <!-- Enter Author List Here-->
@@ -306,13 +309,13 @@
 
 
     <!-- Stabilized High-Membered and Phase-Pure 2D All Inorganic Ruddlesden–Popper Halide Perovskites Nanocrystals as Photocatalysts for the CO2 Reduction Reaction -->
-    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded">
+    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded publication-selected">
         <div class="container-fluid">
             <div class="row ">
                 <div class="col-3 d-none d-md-flex flex-wrap align-items-center justify-content-center ">
                     <img src="" alt="need pic here" class="img-fluid d-block publication-pic-size overflow-hidden" onclick="window.open('https://onlinelibrary.wiley.com/doi/10.1002/smll.202107881', '_blank').focus();" style="cursor:pointer">
                 </div>
-                <div class="col-12 col-md-9 publication-content ">
+                <div class="col-12 col-md-9 publication-content">
                     <div>
                         <h6 class="fw-bold publication-topic-fs topic-color mb-0"
                             onclick="window.open('https://onlinelibrary.wiley.com/doi/10.1002/smll.202107881', '_blank').focus();" 
@@ -321,7 +324,7 @@
                             Photocatalysts for the CO<sub>2</sub> Reduction Reaction
                         </h6>
                     </div>
-                    <p class="content-fs p-0 mb-1 topic-color"><i>Small</i>, 2107881, (2022)</p>
+                    <p class="content-fs p-0 mb-1 citation-color"><i>Small</i>, 2107881, (2022)</p>
                     <div class="d-inline">
                         <p class="content-fs">Cheng-Chieh Lin, Jia-Ying Li, Nian-Zu She, Shao-Ku Huang, Chih-Ying Huang, I-Ta Wang, Fu-Li Tsai, Chuan-Yu Wei, Ting-Yi
                         Lee, Di-Yan Wang, Cheng-Yen Wen, Shao-Sian Li, Atsushi Yabushita, Chih-Wei Luo, Chia-Chun Chen, Chun-Wei Chen</p>
@@ -335,7 +338,7 @@
 
     <!-- Using Exciton/Trion Dynamics to Spatially Monitor the Catalytic Activities of MoS2 during the Hydrogen Evolution Reaction -->
     <!-- ACS Nano 2022, 16, 3, 4298–4307 -->
-    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded">
+    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded publication-selected">
         <div class="container-fluid">
             <div class="row ">
                 <div class="col-3 d-none d-md-flex flex-wrap align-items-center justify-content-center ">
@@ -351,7 +354,7 @@
                             Using Exciton/Trion Dynamics to Spatially Monitor the Catalytic Activities of MoS<sub>2</sub> during the Hydrogen Evolution Reaction
                         </h6>
                     </div>
-                    <p class="content-fs p-0 mb-1 topic-color"><i>ACS Nano</i>, 16, 4298, (2022)</p>
+                    <p class="content-fs p-0 mb-1 citation-color"><i>ACS Nano</i>, 16, 4298, (2022)</p>
                     <div class="d-inline">
                         <p class="content-fs">Fu-He Hsiao, Cheng-Chu Chung, Chun-Hao Chiang, Wei-Neng Feng, Wen-Yen Tzeng, Hung-Min Lin, Chien-Ming Tu,
                         Heng-Liang Wu, Yu-Han Wang, Wei-Yen Woon, Hsiao-Chien Chen, Ching-Hsiang Chen, Chao-Yuan Lo, Man-Hong Lai, Yu-
@@ -365,7 +368,7 @@
 
     <!-- Direct investigation of the reorientational dynamics of A-site cations in 2D organic-inorganic hybrid perovskite by solid-state NMR -->
     <!-- Nature Communications volume 13, Article number: 1513 (2022) -->
-    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded">
+    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded publication-selected">
         <div class="container-fluid">
             <div class="row ">
                 <div class="col-3 d-none d-md-flex flex-wrap align-items-center justify-content-center ">
@@ -376,7 +379,7 @@
                 </div>
                 <div class="col-12 col-md-9 publication-content ">
                     <div>
-                        <h6 class="fw-bold publication-topic-fs topic-color mb-0"
+                        <h6 class="fw-bold publication-topic-fs citation-color mb-0"
                             onclick="window.open('https://www.nature.com/articles/s41467-022-29207-6', '_blank').focus();"
                             style="cursor: pointer">
                             Direct investigation of the reorientational dynamics of A-site cations in 2D organic-inorganic hybrid perovskite by
@@ -392,105 +395,31 @@
             </div>
         </div>
     </div>
-    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded">
-        <div class="container-fluid">
-            <div class="row">
-                <!-- Show full entity when > 768px -->
-                <div class="col-3 d-none d-md-flex flex-wrap align-items-center justify-content-center">
-                    <img src=""
-                        alt="Representative picture here" class="img-fluid d-block publication-pic-size overflow-hidden">
-                </div>
-                <!-- Show only description when < 768 px -->
-                <div class="col-12 col-md-9 publication-content">
-                    <div>
-                        <h6 class="fw-bold publication-topic-fs mb-0"><a class="publication-topic-link" target="_blank" rel="noopener noreferrer" href="https://www.nature.com/articles/s41467-022-29207-6">Direct investigation of the reorientational dynamics of A-site cations in 2D organic-inorganic hybrid perovskite by
-                        solid-state NMR</a></h6>
-                    </div>
-                    <p class="text-info content-fs p-0 mb-1">2022.03.21</p>
-                    <div class="publication-description">
-                        <p class="JQellipsis d-md-none content-fs">Limited methods are available for investigating the reorientational dynamics of A-site cations in two-dimensional
-                        organic–inorganic hybrid perovskites (2D OIHPs), which play a pivotal role in determining their physical properties.
-                        Here, we describe an approach to study the dynamics of A-site cations using solid-state NMR and stable isotope
-                        labelling. <sup>2</sup>>H NMR of 2D OIHPs incorporating methyl-d<sub>3</sub>-ammonium cations (d<sub>3</sub>-MA) reveals the existence of multiple modes
-                        of reorientational motions of MA. Rotational-echo double resonance (REDOR) NMR of 2D OIHPs incorporating <sup>15</sup>N- and <sup>13</sup>C-labeled methylammonium cations (<sup>13</sup>C,<sup>15</sup>N-MA) reflects the averaged dipolar coupling between the C and N nuclei
-                        undergoing different modes of motions. Our study reveals the interplay between the A-site cation dynamics and the
-                        structural rigidity of the organic spacers, so providing a molecular-level insight into the design of 2D OIHPs.</p>
-                    </div>
-                    <div class="publication-description overflow-auto">
-                        <p class="d-none d-md-inline content-fs">Limited methods are available for investigating the reorientational dynamics of A-site cations in two-dimensional
-                        organic–inorganic hybrid perovskites (2D OIHPs), which play a pivotal role in determining their physical properties.
-                        Here, we describe an approach to study the dynamics of A-site cations using solid-state NMR and stable isotope
-                        labelling. <sup>2</sup>H NMR of 2D OIHPs incorporating methyl-d<sub>3</sub>-ammonium cations (d<sub>3</sub>-MA) reveals the existence of multiple modes
-                        of reorientational motions of MA. Rotational-echo double resonance (REDOR) NMR of 2D OIHPs incorporating <sup>15</sup>N- and
-                        <sup>13</sup>C-labeled methylammonium cations (<sup>13</sup>C,<sup>15</sup>N-MA) reflects the averaged dipolar coupling between the C and N nuclei
-                        undergoing different modes of motions. Our study reveals the interplay between the A-site cation dynamics and the
-                        structural rigidity of the organic spacers, so providing a molecular-level insight into the design of 2D OIHPs.</p>
-                    </div>
-                    <div class="publication-link align-items-center">
-                        <a class="d-inline-block mx-1 mt-1" target="_blank" rel="noopener noreferrer"
-                            href="https://www.nature.com/articles/s41467-022-29207-6">
-                            <img src="./src/icons/nature comm.jpg" alt="Nature Comm" class="icon-size">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
 
     <!-- Spin-Polarized Photocatalytic CO2 Reduction of Mn-Doped Perovskite Nanoplates -->
     <!-- J. Am. Chem. Soc. 2022, 144, 34, 15718–15726 -->
-    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded">
+    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded publication-selected">
         <div class="container-fluid">
-            <div class="row">
-                <!-- Show full entity when > 768px -->
-                <div class="col-3 d-none d-md-flex flex-wrap align-items-center justify-content-center">
-                    <img src="https://pubs.acs.org/cms/10.1021/jacs.2c06060/asset/images/medium/ja2c06060_0007.gif" alt="Representative picture here"
-                        class="img-fluid d-block publication-pic-size overflow-hidden">
+            <div class="row ">
+                <div class="col-3 d-none d-md-flex flex-wrap align-items-center justify-content-center ">
+                    <img src="https://pubs.acs.org/cms/10.1021/jacs.2c06060/asset/images/medium/ja2c06060_0007.gif" alt="need pic here" class="img-fluid d-block publication-pic-size overflow-hidden"
+                        onclick="window.open('https://pubs.acs.org/doi/10.1021/jacs.2c06060', '_blank').focus();"
+                        style="cursor:pointer">
                 </div>
-                <!-- Show only description when < 768 px -->
-                <div class="col-12 col-md-9 publication-content">
+                <div class="col-12 col-md-9 publication-content ">
                     <div>
-                        <h6 class="fw-bold publication-topic-fs mb-0"><a class="publication-topic-link" target="_blank" rel="noopener noreferrer" href="https://pubs.acs.org/doi/10.1021/jacs.2c06060">Spin-Polarized Photocatalytic CO<sub>2</sub> Reduction of Mn-Doped Perovskite Nanoplates</a></h6>
+                        <h6 class="fw-bold publication-topic-fs citation-color mb-0"
+                            onclick="window.open('https://pubs.acs.org/doi/10.1021/jacs.2c06060', '_blank').focus();"
+                            style="cursor: pointer">
+                            Spin-Polarized Photocatalytic CO<sub>2</sub> Reduction of Mn-Doped Perovskite Nanoplates
+                        </h6>
                     </div>
-                    <p class="text-info content-fs p-0 mb-1">2022.08.17</p>
-                    <div class="publication-description">
-                        <p class="JQellipsis d-md-none content-fs">“Spin” has been recently reported as an important degree of electronic freedom to improve the performance of
-                        electrocatalysts and photocatalysts. This work demonstrates the manipulations of spin-polarized electrons in CsPbBr<sub>3</sub>
-                        halide perovskite nanoplates (NPLs) to boost the photocatalytic CO<sub>2</sub> reduction reaction (CO<sub>2</sub>RR) efficiencies by doping
-                        manganese cations (Mn<sup>2+</sup>) and applying an external magnetic field. Mn-doped CsPbBr<sub>3</sub> (Mn-CsPbBr<sub>3</sub>) NPLs exhibit an
-                        outstanding photocatalytic CO<sub>2</sub>RR compared to pristine CsPbBr<sub>3</sub> NPLs due to creating spin-polarized electrons after Mn
-                        doping. Notably, the photocatalytic CO<sub>2</sub>RR of Mn-CsPbBr<sub>3</sub> NPLs is significantly enhanced by applying an external magnetic
-                        field. Mn-CsPbBr<sub>3</sub> NPLs exhibit 5.7 times improved performance of photocatalytic CO<sub>2</sub>RR under a magnetic field of 300 mT
-                        with a permanent magnet compared to pristine CsPbBr<sub>3</sub> NPLs. The corresponding mechanism is systematically investigated by
-                        magnetic circular dichroism spectroscopy, ultrafast transient absorption spectroscopy, and density functional theory
-                        simulation. The origin of enhanced photocatalytic CO2RR efficiencies of Mn-CsPbBr<sub>3</sub> NPLs is due to the increased number
-                        of spin-polarized photoexcited carriers by synergistic doping of the magnetic elements and applying a magnetic field,
-                        resulting in prolonged carrier lifetime and suppressed charge recombination. Our result shows that manipulating
-                        spin-polarized electrons in photocatalytic semiconductors provides an effective strategy to boost photocatalytic CO<sub>2</sub>RR
-                        efficiencies.</p>
-                    </div>
-                    <div class="publication-description overflow-auto">
-                        <p class="d-none d-md-inline content-fs">“Spin” has been recently reported as an important degree of electronic freedom to improve the performance of
-                        electrocatalysts and photocatalysts. This work demonstrates the manipulations of spin-polarized electrons in CsPbBr<sub>3</sub>
-                        halide perovskite nanoplates (NPLs) to boost the photocatalytic CO<sub>2</sub> reduction reaction (CO<sub>2</sub>RR) efficiencies by doping
-                        manganese cations (Mn<sup>2+</sup>) and applying an external magnetic field. Mn-doped CsPbBr<sub>3</sub> (Mn-CsPbBr<sub>3</sub>) NPLs exhibit an
-                        outstanding photocatalytic CO<sub>2</sub>RR compared to pristine CsPbBr<sub>3</sub> NPLs due to creating spin-polarized electrons after Mn
-                        doping. Notably, the photocatalytic CO<sub>2</sub>RR of Mn-CsPbBr<sub>3</sub> NPLs is significantly enhanced by applying an external magnetic
-                        field. Mn-CsPbBr<sub>3</sub> NPLs exhibit 5.7 times improved performance of photocatalytic CO<sub>2</sub>RR under a magnetic field of 300 mT
-                        with a permanent magnet compared to pristine CsPbBr<sub>3</sub> NPLs. The corresponding mechanism is systematically investigated by
-                        magnetic circular dichroism spectroscopy, ultrafast transient absorption spectroscopy, and density functional theory
-                        simulation. The origin of enhanced photocatalytic CO<sub>2</sub>RR efficiencies of Mn-CsPbBr<sub>3</sub> NPLs is due to the increased number
-                        of spin-polarized photoexcited carriers by synergistic doping of the magnetic elements and applying a magnetic field,
-                        resulting in prolonged carrier lifetime and suppressed charge recombination. Our result shows that manipulating
-                        spin-polarized electrons in photocatalytic semiconductors provides an effective strategy to boost photocatalytic CO<sub>2</sub>RR
-                        efficiencies.</p>
-                    </div>
-                    <div class="publication-link align-items-center">
-                        <a class="d-inline-block mx-1 mt-1" target="_blank" rel="noopener noreferrer"
-                            href="https://pubs.acs.org/doi/10.1021/jacs.2c06060">
-                            <img src="./src/icons/jacs.jpg" alt="acs publication" class="icon-size">
-                        </a>
+                    <p class="content-fs p-0 mb-1 topic-color"><i>Journal of American Chemical Society</i>, 144, 15718, (2022)</p>
+                    <div class="d-inline">
+                        <p class="content-fs">Cheng-Chieh Lin, Ting-Ran Liu, Sin-Rong Lin, Karunakara Moorthy Boopathi, Chun-Hao Chiang, Wen-Yen Tzeng, Wan-
+                        Hsiu Chang Chien, Hua-Shu Hsu, Chih-Wei Luo, Hui-Ying Tsai, Hsin-An Chen,Pai-Chia Kuo, Jessie Shiue, Jau-Wern Chiou,
+                        Way-Faung Pong, Chia-Chun Chen*, andChun-Wei Chen</p>
                     </div>
                 </div>
             </div>
@@ -500,56 +429,27 @@
 
     <!-- Bifunctional Monolayer WSe2/Graphene Self-Stitching Heterojunction Microreactors for Efficient Overall Water Splitting in Neutral Medium -->
     <!-- ACS Nano 2022, 16, 11, 18274–18283 -->
-    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded">
+    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded publication-selected">
         <div class="container-fluid">
-            <div class="row">
-                <!-- Show full entity when > 768px -->
-                <div class="col-3 d-none d-md-flex flex-wrap align-items-center justify-content-center">
-                    <img src="https://pubs.acs.org/cms/10.1021/acsnano.2c05986/asset/images/medium/nn2c05986_0006.gif"
-                        alt="Representative picture here" class="img-fluid d-block publication-pic-size overflow-hidden">
+            <div class="row ">
+                <div class="col-3 d-none d-md-flex flex-wrap align-items-center justify-content-center ">
+                    <img src="https://pubs.acs.org/cms/10.1021/acsnano.2c05986/asset/images/medium/nn2c05986_0006.gif" alt="need pic here" class="img-fluid d-block publication-pic-size overflow-hidden"
+                        onclick="window.open('https://pubs.acs.org/doi/10.1021/acsnano.2c05986', '_blank').focus();"
+                        style="cursor:pointer">
                 </div>
-                <!-- Show only description when < 768 px -->
-                <div class="col-12 col-md-9 publication-content">
+                <div class="col-12 col-md-9 publication-content ">
                     <div>
-                        <h6 class="fw-bold publication-topic-fs mb-0"><a class="publication-topic-link" target="_blank" rel="noopener noreferrer" href="https://pubs.acs.org/doi/10.1021/acsnano.2c05986">Bifunctional Monolayer WSe<sub>2</sub>/Graphene Self-Stitching Heterojunction Microreactors for Efficient Overall Water Splitting
-                        in Neutral Medium</a></h6>
+                        <h6 class="fw-bold publication-topic-fs citation-color mb-0"
+                            onclick="window.open('https://pubs.acs.org/doi/10.1021/acsnano.2c05986', '_blank').focus();"
+                            style="cursor: pointer">
+                            Bifunctional Monolayer WSe<sub>2</sub>/Graphene Self-Stitching Heterojunction Microreactors for Efficient Overall Water Splitting in Neutral Medium
+                        </h6>
                     </div>
-                    <p class="text-info content-fs p-0 mb-1">2022.10.28</p>
-                    <div class="publication-description">
-                        <p class="JQellipsis d-md-none content-fs">Developing efficient bifunctional electrocatalysts in neutral media to avoid the deterioration of electrodes or
-                        catalysts under harsh environments has become the ultimate goal in electrochemical water splitting. This work
-                        demonstrates the fabrication of an on-chip bifunctional two-dimensional (2D) monolayer (ML) WSe<sub>2</sub>/graphene heterojunction
-                        microreactor for efficient overall water splitting in a neutral medium (pH = 7). Through the synergistic atomic growth
-                        of the metallic Cr dopant and graphene stitching contact on the 2D ML WSe<sub>2</sub>, the bifunctional WSe<sub>2</sub>/graphene
-                        heterojunction microreactor consisting of a full-cell configuration demonstrates excellent performance for overall water
-                        splitting in a neutral medium. Atomic doping of metallic Cr atoms onto the 2D ML WSe<sub>2</sub> effectively facilitates the charge
-                        transfer at the solid–liquid interface. In addition, the direct growth of the self-stitching graphene contact with the
-                        2D WSe<sub>2</sub> catalyst largely reduces the contact resistance of the microreactor and further improves the overall water
-                        splitting efficiency. A significant reduction of the overpotential of nearly 1000 mV at 10 mA cm<sup>-2</sup> at the Cr-doped
-                        WSe<sub>2</sub>/graphene heterojunction microreactor compared to the ML pristine WSe<sub>2</sub> counterpart is achieved. The bifunctional
-                        WSe<sub>2</sub>/graphene self-stitching heterojunction microreactor is an ideal platform to investigate the fundamental mechanism
-                        of emerging bifunctional 2D catalysts for overall water splitting in a neutral medium.</p>
-                    </div>
-                    <div class="publication-description overflow-auto">
-                        <p class="d-none d-md-inline content-fs">Developing efficient bifunctional electrocatalysts in neutral media to avoid the deterioration of electrodes or
-                        catalysts under harsh environments has become the ultimate goal in electrochemical water splitting. This work
-                        demonstrates the fabrication of an on-chip bifunctional two-dimensional (2D) monolayer (ML) WSe2/graphene heterojunction
-                        microreactor for efficient overall water splitting in a neutral medium (pH = 7). Through the synergistic atomic growth
-                        of the metallic Cr dopant and graphene stitching contact on the 2D ML WSe<sub>2</sub>, the bifunctional WSe<sub>2</sub>/graphene
-                        heterojunction microreactor consisting of a full-cell configuration demonstrates excellent performance for overall water
-                        splitting in a neutral medium. Atomic doping of metallic Cr atoms onto the 2D ML WSe<sub>2</sub> effectively facilitates the charge
-                        transfer at the solid–liquid interface. In addition, the direct growth of the self-stitching graphene contact with the
-                        2D WSe<sub>2</sub> catalyst largely reduces the contact resistance of the microreactor and further improves the overall water
-                        splitting efficiency. A significant reduction of the overpotential of nearly 1000 mV at 10 mA cm<sup>-2</sup> at the Cr-doped
-                        WSe<sub>2</sub>/graphene heterojunction microreactor compared to the ML pristine WSe<sub>2</sub> counterpart is achieved. The bifunctional
-                        WSe<sub>2</sub>/graphene self-stitching heterojunction microreactor is an ideal platform to investigate the fundamental mechanism
-                        of emerging bifunctional 2D catalysts for overall water splitting in a neutral medium.</p>
-                    </div>
-                    <div class="publication-link align-items-center">
-                        <a class="d-inline-block mx-1 mt-1" target="_blank" rel="noopener noreferrer"
-                            href="https://pubs.acs.org/doi/10.1021/acsnano.2c05986">
-                            <img src="./src/icons/acs nano.jpg" alt="acs nano" class="icon-size">
-                        </a>
+                    <p class="content-fs p-0 mb-1 topic-color"><i>ACS Nano</i>, 16, 18274,
+                    (2022)</p>
+                    <div class="d-inline">
+                        <p class="content-fs">Chun-Hao Chiang, Yueh-Chiang Yang, Jia-Wei Lin, Yung-Chang Lin, Po-Tuan Chen, Chung-Li Dong, Hung-Min Lin, Kwun
+                        Man Chan,Yu-Ting Kao, Kazu Suenaga, Po-Wen Chiu*, and Chun-Wei Chen*</p>
                     </div>
                 </div>
             </div>
@@ -559,61 +459,31 @@
 
     <!-- Ligand Engineering and Recrystallization of Perovskite Quantum-Dot Thin Film for Low-Threshold Plasmonic Lattice Laser -->
     <!-- Small Volume 18, Issue 44 2204070 -->
-    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded">
+    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded not-selected 2022">
         <div class="container-fluid">
-            <div class="row">
-                <!-- Show full entity when > 768px -->
-                <div class="col-3 d-none d-md-flex flex-wrap align-items-center justify-content-center">
-                    <img src=""
-                        alt="Representative picture here" class="img-fluid d-block publication-pic-size overflow-hidden">
+            <div class="row ">
+                <div class="col-3 d-none d-md-flex flex-wrap align-items-center justify-content-center ">
+                    <img src="" alt="need pic here" class="img-fluid d-block publication-pic-size overflow-hidden"
+                        onclick="window.open('https://onlinelibrary.wiley.com/doi/10.1002/smll.202204070', '_blank').focus();"
+                        style="cursor:pointer">
                 </div>
-                <!-- Show only description when < 768 px -->
-                <div class="col-12 col-md-9 publication-content">
+                <div class="col-12 col-md-9 publication-content ">
                     <div>
-                        <h6 class="fw-bold publication-topic-fs mb-0"><a class="publication-topic-link" target="_blank" rel="noopener noreferrer" href="https://onlinelibrary.wiley.com/doi/10.1002/smll.202204070">Ligand Engineering and Recrystallization of Perovskite Quantum-Dot Thin Film for Low-Threshold Plasmonic Lattice Laser</a></h6>
+                        <h6 class="fw-bold publication-topic-fs citation-color mb-0"
+                            onclick="window.open('https://onlinelibrary.wiley.com/doi/10.1002/smll.202204070', '_blank').focus();"
+                            style="cursor: pointer">
+                            Ligand Engineering and Recrystallization of Perovskite Quantum-Dot Thin Film for Low-Threshold Plasmonic Lattice Laser
+                        </h6>
                     </div>
-                    <p class="text-info content-fs p-0 mb-1">2022.09.19</p>
-                    <div class="publication-description">
-                        <p class="JQellipsis d-md-none content-fs">Solution-process perovskite quantum dots (QDs) are promising materials to be utilized in photovoltaics and photonics
-                        with their superior optical properties. Advancements in top-down nanofabrication for perovskite are thus important for
-                        practical photonic and plasmonic devices. However, different from the chemically synthesized nano/micro-structures that
-                        show high quality and low surface roughness, the perovskite QD thin film prepared by spin-coating or the drop-casting
-                        process shows a large roughness and inhomogeneity. Low-roughness and low-optical loss perovskite QD thin film is highly
-                        desired for photonic and optoelectronic devices. Here, this work presents a pressure-assisted ligand
-                        engineering/recrystallization process for high-quality and well-thickness controlled CsPbBr<sub>3</sub> QD film and demonstrates a
-                        low-threshold and single-mode plasmonic lattice laser. A recrystallization process is proposed to prepare the QD film
-                        with a low roughness (RMS = 1.3 nm) and small thickness (100 nm). Due to the low scattering loss and strong interaction
-                        between gain media and plasmonic nanoparticles, a low lasing threshold of 16.9 µJ cm<sup>-2</sup> is achieved. It is believed that
-                        this work is not only important to the plasmonic laser field but also provides a promising and general nanofabrication
-                        method of solution-processed QDs for various photonic and plasmonic devices.</p>
-                    </div>
-                    <div class="publication-description overflow-auto">
-                        <p class="d-none d-md-inline content-fs">Solution-process perovskite quantum dots (QDs) are promising materials to be utilized in photovoltaics and photonics
-                        with their superior optical properties. Advancements in top-down nanofabrication for perovskite are thus important for
-                        practical photonic and plasmonic devices. However, different from the chemically synthesized nano/micro-structures that
-                        show high quality and low surface roughness, the perovskite QD thin film prepared by spin-coating or the drop-casting
-                        process shows a large roughness and inhomogeneity. Low-roughness and low-optical loss perovskite QD thin film is highly
-                        desired for photonic and optoelectronic devices. Here, this work presents a pressure-assisted ligand
-                        engineering/recrystallization process for high-quality and well-thickness controlled CsPbBr<sub>3</sub> QD film and demonstrates a
-                        low-threshold and single-mode plasmonic lattice laser. A recrystallization process is proposed to prepare the QD film
-                        with a low roughness (RMS = 1.3 nm) and small thickness (100 nm). Due to the low scattering loss and strong interaction
-                        between gain media and plasmonic nanoparticles, a low lasing threshold of 16.9 µJ cm<sup>-2</sup> is achieved. It is believed that
-                        this work is not only important to the plasmonic laser field but also provides a promising and general nanofabrication
-                        method of solution-processed QDs for various photonic and plasmonic devices.</p>
-                    </div>
-                    <div class="publication-link align-items-center">
-                        <a class="d-inline-block mx-1 mt-1" target="_blank" rel="noopener noreferrer"
-                            href="https://onlinelibrary.wiley.com/doi/10.1002/smll.202204070">
-                            <img src="./src/icons/small.jpg" alt="small" class="icon-size">
-                        </a>
+                    <p class="content-fs p-0 mb-1 topic-color"><i>Small</i>, 18, 22040, (2022)</p>
+                    <div class="d-inline">
+                        <p class="content-fs">Di Xing, Cheng-Chieh Lin, Ya-Lun Ho, Yang-Chun Lee, Mu-Hsin Chen, Bo-Wei Lin, Chun-Wei Chen*, and Jean-Jacques
+                        Delaunay</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
-
 
 
     <!-- 2021 Publications -->
