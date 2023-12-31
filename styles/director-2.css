@@ -1,0 +1,51 @@
+/* common properties */
+
+.align-left{
+    text-align: left;
+}
+
+.align-right{
+    text-align: right;
+}
+
+.subsection-title{
+    border-bottom: 2px solid rgba(0,0,0,0.75);
+}
+
+.general-table-font{
+    font-size: 18px;
+}
+
+.vertical-align-center{
+    vertical-align:middle;
+}
+
+
+/* introduction div settings */
+
+.intro-table-font{
+    font-size: 15px;
+}
+
+.intro-table-width{
+    width: 10%;
+}
+
+/* education div settings */
+
+.edu-table-width{
+    width: 8%;
+}
+
+
+/* professional employment section */
+
+.emp-table-width{
+    width: 18%;
+}
+
+/* award section */
+
+.award-table-width{
+    width: 8%;
+}
