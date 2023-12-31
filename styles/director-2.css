@@ -31,6 +31,10 @@
     width: 10%;
 }
 
+.intro-pic{
+    max-height: 50vh;
+}
+
 /* education div settings */
 
 .edu-table-width{
