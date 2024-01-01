@@ -134,3 +134,68 @@
 .publication-pic{
     border-radius: 5px;
 }
+
+
+/* selected publication section */
+
+/* Below css properties dedicate to the selected publication page. Modify the properties here does not affect the publication page */
+
+@media screen and (max-width: 992px) {
+    .selected-div{
+        width: 80%;
+    }
+
+    .selected-topic{
+        font-size: 14px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        color:rgba(0, 51, 102, 0.9)
+    }
+
+    .selected-citation{
+        font-size: 13px;
+        padding: 0 auto;
+        margin: 0 auto;
+        color:rgba(0, 51, 102, 0.9)
+    }
+
+    .selected-author{
+        font-size: 12px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .selected-div{
+        width: 60%;
+    }
+
+    .selected-topic {
+        font-size: 18px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        color: rgba(0, 51, 102, 0.9)
+    }
+    
+    .selected-citation {
+        font-size: 15px;
+        padding: 0 auto;
+        margin: 0 auto;
+        color: rgba(0, 51, 102, 0.9)
+    }
+    
+    .selected-author {
+        font-size: 13px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+}
+
+.selected-topic:hover{
+    color: rgba(0, 51, 102, 0.5)
+}
+
+.selected-underline{
+    border-bottom: 2px solid black;
+}
