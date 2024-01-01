@@ -101,6 +101,9 @@
                 <!-- Left links -->
                 <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item fs-6">
+                        <a class="nav-link" href=""></a>
+                    </li>
+                    <li class="nav-item fs-6">
                         <a class="nav-link" href="#2023">2023</a>
                     </li>
                     <li class="nav-item fs-6">
@@ -219,49 +222,22 @@
 -->
 
 
+    <!-- !Important -->
+    <!-- Publication Module v2 Template -->
+    <!--
 
-    <!-- 2023 Publications -->
-    <div class="container w-75 mx-auto my-4 fw-bold fs-4 border-bottom" id="2023">2023
-    </div>
+        Publication module v2
 
-    <!--2023 Publication 1-->
-    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded">
-        <div class="container-fluid">
-            <div class="row">
-                <!-- Show full entity when > 768px -->
-                <div class="col-3 d-none d-md-flex flex-wrap align-items-center justify-content-center">
+        This is the div containes the selection mechanism
+        not selected publications need to add class: not-selected [year]
+        selected publications need to add class: publication-selected
 
-                    <!-- Replace representing image here -->
-                    <img src="https://pubs.acs.org/cms/10.1021/acsnano.2c10631/asset/images/medium/nn2c10631_0006.gif"
-                        alt="" class="img-fluid d-block publication-pic-size overflow-hidden" onclick="window.open('https://pubs.acs.org/doi/abs/10.1021/acsnano.2c10631', '_blank').focus();" style="cursor:pointer">
-                </div>
-                <div class="col-12 col-md-9 publication-content">
-                    <div>
-                        <!-- Enter topic here -->
-                        <!--
-                        <h6 class="fw-bold publication-topic-fs topic-color mb-0" onclick="location.href='https://pubs.acs.org/doi/abs/10.1021/acsnano.2c10631'" style="cursor:pointer">
-                                Hysteresis-Free Contact Doping for High-Performance Two-Dimensional Electronics</h6>
-                        -->
-                        <h6 class="fw-bold publication-topic-fs topic-color mb-0" onclick="window.open('https://pubs.acs.org/doi/abs/10.1021/acsnano.2c10631', '_blank').focus();" style="cursor: pointer">
-                        Hysteresis-Free Contact Doping for High-Performance Two-Dimensional Electronics
-                        </h6>
-                    </div>
+        mechanism:
+        button 1: show all publications
+        button 2: hide publications 
+        button 1 jquery: show class .2022 > hide button 1 > show button 2
+        button 2 jquery: hide class .2022 > hide button 2 > show button 1
 
-                    <!-- Enter citation here -->
-                    <p class="content-fs p-0 mb-1 citation-color"><i>ACS Nano</i>     , 17, 3, 2653–2660 (2023)</p>
-
-                    <div class="d-inline">
-                        <!-- Enter Author List Here-->
-                        <p class="content-fs">Po-Hsun Ho*, Jun-Ru Chang, Chun-Hsiang Chen, Cheng-Hung Hou, Chun-Hao Chiang, Min-Chuan Shih, Hung-Chang Hsu, Wen-Hao
-                        Chang, Jing-Jong Shyue, Ya-Ping Chiu*, and Chun-Wei Chen*</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- 2022 Publications -->
     <div class="container w-75 mx-auto my-4 fw-bold fs-4 border-bottom" id="2022">
         <h4 class="d-inline fw-bold">2022</h4>
         <button class="btn btn-sm btn-outline-primary float-end" id="2022_selector" onclick='$(".2022").show(); $("#2022_selector").hide(); $("#2022_antiselector").show()'>Show all publications</button>
@@ -269,22 +245,16 @@
     </div>
 
 
-    <!-- Internal Built-In Electric Fields at Organic–Inorganic Interfaces of Two-Dimensional Ruddlesden–Popper Perovskite Single Crystals -->
-    <!-- ACS Appl. Mater. Interfaces 2022, 14, 17, 19818–19825 -->
-
 
     <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded not-selected 2022">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-3 d-none d-md-flex flex-wrap align-items-center justify-content-center ">
-                
-                    <!-- Replace representing image here -->
                     <img src="https://pubs.acs.org/cms/10.1021/acsami.2c00055/asset/images/medium/am2c00055_0007.gif" alt=""
                         class="img-fluid d-block publication-pic-size overflow-hidden" onclick="window.open('https://pubs.acs.org/doi/10.1021/acsami.2c00055', '_blank').focus();" style="cursor:pointer">
                 </div>
                 <div class="col-12 col-md-9 publication-content">
                     <div>
-                        <!-- Enter topic here -->
                         <h6 class="fw-bold publication-topic-fs topic-color mb-0"
                             onclick="window.open('https://pubs.acs.org/doi/10.1021/acsami.2c00055', '_blank').focus();"
                             style="cursor: pointer">
@@ -292,12 +262,9 @@
                             Crystals
                         </h6>
                     </div>
-    
-                    <!-- Enter citation here -->
                     <p class="content-fs p-0 mb-1 citation-color"><i>ACS Appl. Mater. Interfaces</i>, 14, 17, 19818–19825 (2022)</p>
     
                     <div class="d-inline">
-                        <!-- Enter Author List Here-->
                         <p class="content-fs">Cheng-Chieh Lin, Kai-Di Yang, Min-Chuan Shih, Shao-Ku Huang, Tzu-Pei Chen, Hung-Chang Hsu, Ching-An Chuang, Chih-Ying
                         Huang, Lucas Wang, Chia-Chun Chen, Ching-Hwa Ho*, Ya-Ping Chiu*, and Chun-Wei Chen*</p>
                     </div>
@@ -308,7 +275,6 @@
     
 
 
-    <!-- Stabilized High-Membered and Phase-Pure 2D All Inorganic Ruddlesden–Popper Halide Perovskites Nanocrystals as Photocatalysts for the CO2 Reduction Reaction -->
     <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded publication-selected">
         <div class="container-fluid">
             <div class="row ">
@@ -335,9 +301,6 @@
     </div>
 
 
-
-    <!-- Using Exciton/Trion Dynamics to Spatially Monitor the Catalytic Activities of MoS2 during the Hydrogen Evolution Reaction -->
-    <!-- ACS Nano 2022, 16, 3, 4298–4307 -->
     <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded publication-selected">
         <div class="container-fluid">
             <div class="row ">
@@ -366,8 +329,6 @@
     </div>
 
 
-    <!-- Direct investigation of the reorientational dynamics of A-site cations in 2D organic-inorganic hybrid perovskite by solid-state NMR -->
-    <!-- Nature Communications volume 13, Article number: 1513 (2022) -->
     <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded publication-selected">
         <div class="container-fluid">
             <div class="row ">
@@ -397,8 +358,6 @@
     </div>
 
 
-    <!-- Spin-Polarized Photocatalytic CO2 Reduction of Mn-Doped Perovskite Nanoplates -->
-    <!-- J. Am. Chem. Soc. 2022, 144, 34, 15718–15726 -->
     <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded publication-selected">
         <div class="container-fluid">
             <div class="row ">
@@ -427,8 +386,6 @@
     </div>
 
 
-    <!-- Bifunctional Monolayer WSe2/Graphene Self-Stitching Heterojunction Microreactors for Efficient Overall Water Splitting in Neutral Medium -->
-    <!-- ACS Nano 2022, 16, 11, 18274–18283 -->
     <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded publication-selected">
         <div class="container-fluid">
             <div class="row ">
@@ -456,9 +413,6 @@
         </div>
     </div>
 
-
-    <!-- Ligand Engineering and Recrystallization of Perovskite Quantum-Dot Thin Film for Low-Threshold Plasmonic Lattice Laser -->
-    <!-- Small Volume 18, Issue 44 2204070 -->
     <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded not-selected 2022">
         <div class="container-fluid">
             <div class="row ">
@@ -485,70 +439,431 @@
         </div>
     </div>
 
+-->
+
+    <!-- 2023 Publications -->
+    <div class="container w-75 mx-auto my-4 fw-bold fs-4 border-bottom" id="2023">2023
+    </div>
+
+    <!--2023 Publication 6 (2023/12/03)-->
+    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded publication-selected">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 d-none d-lg-flex flex-wrap align-items-center justify-content-center ">
+                    <img src="https://onlinelibrary.wiley.com/cms/asset/f3eb1a32-5ad8-4307-819c-fcf0f3458f3f/smll.v19.52.cover.jpg"
+                        alt="" class="img-fluid d-block publication-pic-size publication-pic shadow overflow-hidden"
+                        onclick="window.open('https://onlinelibrary.wiley.com/doi/10.1002/smll.202306018?af=R', '_blank').focus();"
+                        style="cursor:pointer">
+                </div>
+                <div class="col-12 col-lg-9 publication-content">
+                    <div>
+                        <h6 class="fw-bold publication-topic-fonts mb-0"
+                            onclick="window.open('https://onlinelibrary.wiley.com/doi/10.1002/smll.202306018?af=R', '_blank').focus();"
+                            style="cursor: pointer">Single-Layer Hexagonal Boron Nitride Nanopores as High-Performance Ionic Gradient Power
+                        </h6>
+                    </div>
+                    <p class="citation p-0 mb-1"><i>Small</i>, 2306018, (2023)</p>
+    
+                    <div class="d-inline">
+                        <p class="content">Ting-Ran Liu, Man Yui Thomas Fung, Li-Hsien Yeh,* Chun-Hao Chiang, Jhih-Sian Yang, Pai-Chia Kuo, Jessie Shiue, Chia-Chun
+                        Chen, and Chun-Wei Chen*
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--2023 Publication 4 (2023/08/30)-->
+    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded publication-selected">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 d-none d-lg-flex flex-wrap align-items-center justify-content-center ">
+                    <img src="https://onlinelibrary.wiley.com/cms/asset/9cb61a33-7e78-402f-aae1-b67adb292b7e/adfm.v33.43.cover.jpg"
+                        alt="" class="img-fluid d-block publication-pic-size publication-pic shadow overflow-hidden"
+                        onclick="window.open('https://onlinelibrary.wiley.com/doi/10.1002/adfm.202305792', '_blank').focus();"
+                        style="cursor:pointer">
+                </div>
+                <div class="col-12 col-lg-9 publication-content">
+                    <div>
+                        <h6 class="fw-bold publication-topic-fonts mb-0"
+                            onclick="window.open('https://onlinelibrary.wiley.com/doi/10.1002/adfm.202305792', '_blank').focus();"
+                            style="cursor: pointer">Manipulating Spin Exchange Interactions and Spin-Selected Electron Transfers of 2D Metal Phosphorus Trisulfide Crystals for Efficient Oxygen Evolution Reaction
+                        </h6>
+                    </div>
+                    <p class="citation p-0 mb-1"><i>Advanced Functional Materials</i>, 2305792, (2023)</p>
+    
+                    <div class="d-inline">
+                        <p class="content">Chih-Ying Huang, Hung-Min Lin, Chun-Hao Chiang, Hsin-An Chen, Ting-Ran Liu, Deepak Vishnu S. K, Jau-Wern Chiou,* Raman
+                        Sankar,* Huang-Ming Tsai, Way-Faung Pong,* and Chun-Wei Chen*
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--2023 Publication 5 (2023/08/17)-->
+    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded publication-selected">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 d-none d-lg-flex flex-wrap align-items-center justify-content-center ">
+                    <img src="https://onlinelibrary.wiley.com/cms/asset/77ddf393-a832-411e-a4b3-e2a9cf4de796/adma.v35.42.cover.jpg"
+                        alt="" class="img-fluid d-block publication-pic-size publication-pic shadow overflow-hidden"
+                        onclick="window.open('https://onlinelibrary.wiley.com/doi/10.1002/adma.202303203?af=R', '_blank').focus();"
+                        style="cursor:pointer">
+                </div>
+                <div class="col-12 col-lg-9 publication-content">
+                    <div>
+                        <h6 class="fw-bold publication-topic-fonts mb-0"
+                            onclick="window.open('https://onlinelibrary.wiley.com/doi/10.1002/adma.202303203?af=R', '_blank').focus();"
+                            style="cursor: pointer">Chiroptical Response
+                            Inversion and Enhancement of Room-Temperature Exciton-Polaritons Using 2D Chirality in Perovskites
+                        </h6>
+                    </div>
+                    <p class="citation p-0 mb-1"><i>Advanced Materials</i>, 35, 2303203, (2023)</p>
+    
+                    <div class="d-inline">
+                        <p class="content">Zhiyu Wang, Cheng-Chieh Lin, Kei Murata, Ahmad Syazwan Ahmad Kamal, Bo-Wei Lin,Mu-Hsin Chen, Siyi Tang, Ya-Lun Ho,
+                        Chia-Chun Chen, Chun-Wei Chen,Hirofumi Daiguji, Kazuyuki Ishii,* and Jean-Jacques Delaunay*
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--2023 Publication 3 (2023/05/04)-->
+    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded publication-selected">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 d-none d-lg-flex flex-wrap align-items-center justify-content-center ">
+                    <img src="https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D3TA01169K&imageInfo.ImageIdentifier.Year=2023"
+                        alt="" class="img-fluid d-block publication-pic-size publication-pic shadow overflow-hidden"
+                        onclick="window.open('https://pubs.rsc.org/en/content/articlelanding/2023/ta/d3ta01169k#!', '_blank').focus();"
+                        style="cursor:pointer">
+                </div>
+                <div class="col-12 col-lg-9 publication-content">
+                    <div>
+                        <h6 class="fw-bold publication-topic-fonts mb-0"
+                            onclick="window.open('https://pubs.rsc.org/en/content/articlelanding/2023/ta/d3ta01169k#!', '_blank').focus();"
+                            style="cursor: pointer">Efficient ammonia photosynthesis from nitrate by
+                        graphene/Si Schottky junction integrated with Ni–Fe LDH catalyst
+                        </h6>
+                    </div>
+                    <p class="citation p-0 mb-1"><i>Journal of Materials Chemistry A</i>, 11, 11179, (2023)</p>
+    
+                    <div class="d-inline">
+                        <p class="content">Chun-Hao Chiang, Yu-Ting Kao, Po-Hsien Wu, Ting-Ran Liu, Jia-Wei Lin,Po-Tuan Chen,Jr-Wen Lin, Shan-Chiao Yang, Hsuen-Li
+                        Chen, Shivaraj B. Patil,d Di-Yan Wang * and Chun-Wei Chen*</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--2023 Publication 2 (2023/03/01)-->
+    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded publication-selected">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 d-none d-lg-flex flex-wrap align-items-center justify-content-center ">
+                    <img src="https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D3TA00505D&imageInfo.ImageIdentifier.Year=2023"
+                        alt="" class="img-fluid d-block publication-pic-size publication-pic shadow overflow-hidden"
+                        onclick="window.open('https://pubs.rsc.org/en/content/articlelanding/2023/ta/d3ta00505d', '_blank').focus();"
+                        style="cursor:pointer">
+                </div>
+                <div class="col-12 col-lg-9 publication-content">
+                    <div>
+                        <h6 class="fw-bold publication-topic-fonts mb-0"
+                            onclick="window.open('https://pubs.rsc.org/en/content/articlelanding/2023/ta/d3ta00505d', '_blank').focus();"
+                            style="cursor: pointer">Terpyridine-zinc(II)
+                        coordination nanosheets as modulators of perovskite crystallization to enhance solar cell efficiency
+                        </h6>
+                    </div>
+                    <p class="citation p-0 mb-1"><i>Journal of Materials Chemistry A</i>, 11, 7077, (2023)</p>
+    
+                    <div class="d-inline">
+                        <p class="content">Ying-Chiao Wang, Chun-Hao Chiang,Chun-Jen Su, Je-Wei Chang,Chi-Ying Lin, Chia-Chun Wei, Shao-Ku Huang, Hiroaki Maeda,
+                        Wen-Bin Jian, U-Ser Jeng* ,Kazuhito Tsukagoshi*, Chun-Wei Chen* and Hiroshi Nishihara*</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--2023 Publication 1 (2023/02/14)-->
+    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded publication-selected">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 d-none d-lg-flex flex-wrap align-items-center justify-content-center ">
+                    <img src="https://pubs.acs.org/cms/10.1021/acsnano.2c10631/asset/images/medium/nn2c10631_0006.gif" alt=""
+                        class="img-fluid d-block publication-pic-size publication-pic shadow overflow-hidden"
+                        onclick="window.open('https://pubs.acs.org/doi/abs/10.1021/acsnano.2c10631', '_blank').focus();"
+                        style="cursor:pointer">
+                </div>
+                <div class="col-12 col-lg-9 publication-content">
+                    <div>
+                        <h6 class="fw-bold publication-topic-fonts mb-0"
+                            onclick="window.open('https://pubs.acs.org/doi/abs/10.1021/acsnano.2c10631', '_blank').focus();"
+                            style="cursor: pointer">Hysteresis-Free Contact Doping for High-Performance Two-Dimensional Electronics
+                        </h6>
+                    </div>
+                    <p class="citation p-0 mb-1"><i>ACS Nano</i> , 17, 3, 2653–2660 (2023)</p>
+    
+                    <div class="d-inline">
+                        <p class="content">Po-Hsun Ho*, Jun-Ru Chang, Chun-Hsiang Chen, Cheng-Hung Hou, Chun-Hao Chiang,
+                        Min-Chuan Shih, Hung-Chang Hsu, Wen-Hao
+                        Chang, Jing-Jong Shyue, Ya-Ping Chiu*, and Chun-Wei Chen*</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- 2022 publications-->
+    <div class="container w-75 mx-auto my-4 fw-bold fs-4 border-bottom" id="2022">
+        <h4 class="d-inline fw-bold">2022</h4>
+    </div>
+
+    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded publication-selected">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 d-none d-lg-flex flex-wrap align-items-center justify-content-center ">
+                    <img src="https://pubs.acs.org/cms/10.1021/acsami.2c00055/asset/images/medium/am2c00055_0007.gif" alt=""
+                        class="img-fluid d-block publication-pic-size publication-pic shadow overflow-hidden"
+                        onclick="window.open('https://pubs.acs.org/doi/10.1021/acsami.2c00055', '_blank').focus();"
+                        style="cursor:pointer">
+                </div>
+                <div class="col-12 col-lg-9 publication-content">
+                    <div>
+                        <h6 class="fw-bold publication-topic-fonts mb-0"
+                            onclick="window.open('https://pubs.acs.org/doi/10.1021/acsami.2c00055', '_blank').focus();"
+                            style="cursor: pointer">
+                            Internal Built-In Electric Fields at Organic–Inorganic Interfaces of Two-Dimensional
+                            Ruddlesden–Popper Perovskite Single
+                            Crystals
+                        </h6>
+                    </div>
+                    <p class="citation p-0 mb-1"><i>ACS Appl. Mater. Interfaces</i>, 14, 17, 19818–19825
+                        (2022)</p>
+
+                    <div class="d-inline">
+                        <p class="content">Cheng-Chieh Lin, Kai-Di Yang, Min-Chuan Shih, Shao-Ku Huang, Tzu-Pei Chen,
+                            Hung-Chang Hsu, Ching-An Chuang, Chih-Ying
+                            Huang, Lucas Wang, Chia-Chun Chen, Ching-Hwa Ho*, Ya-Ping Chiu*, and Chun-Wei Chen*</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded publication-selected">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 d-none d-lg-flex flex-wrap align-items-center justify-content-center ">
+                    <img src="https://onlinelibrary.wiley.com/cms/asset/890e76a6-215b-4070-9943-ae98f8af8012/smll.v18.19.cover.jpg" alt=""
+                        class="img-fluid d-block publication-pic-size publication-pic shadow overflow-hidden"
+                        onclick="window.open('https://onlinelibrary.wiley.com/doi/10.1002/smll.202107881', '_blank').focus();"
+                        style="cursor:pointer">
+                </div>
+                <div class="col-12 col-lg-9 publication-content">
+                    <div>
+                        <h6 class="fw-bold publication-topic-fonts mb-0"
+                            onclick="window.open('https://onlinelibrary.wiley.com/doi/10.1002/smll.202107881', '_blank').focus();"
+                            style="cursor: pointer">Stabilized High-Membered and Phase-Pure 2D All Inorganic Ruddlesden–Popper Halide Perovskites Nanocrystals as Photocatalysts for the CO<sub>2</sub> Reduction Reaction
+                        </h6>
+                    </div>
+                    <p class="citation p-0 mb-1"><i>Small</i>, 2107881, (2022)</p>
+    
+                    <div class="d-inline">
+                        <p class="content">Cheng-Chieh Lin, Jia-Ying Li, Nian-Zu She, Shao-Ku Huang, Chih-Ying Huang,
+                        I-Ta Wang, Fu-Li Tsai, Chuan-Yu Wei, Ting-Yi
+                        Lee, Di-Yan Wang, Cheng-Yen Wen, Shao-Sian Li, Atsushi Yabushita, Chih-Wei Luo, Chia-Chun Chen,
+                        Chun-Wei Chen</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded publication-selected">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 d-none d-lg-flex flex-wrap align-items-center justify-content-center ">
+                    <img src="https://pubs.acs.org/cms/10.1021/acsnano.1c10380/asset/images/medium/nn1c10380_0006.gif" alt="" class="img-fluid d-block publication-pic-size publication-pic shadow overflow-hidden"
+                        onclick="window.open('https://pubs.acs.org/doi/10.1021/acsnano.1c10380', '_blank').focus();"
+                        style="cursor:pointer">
+                </div>
+                <div class="col-12 col-lg-9 publication-content">
+                    <div>
+                        <h6 class="fw-bold publication-topic-fonts mb-0"
+                            onclick="window.open('https://pubs.acs.org/doi/10.1021/acsnano.1c10380', '_blank').focus();"
+                            style="cursor: pointer">Using Exciton/Trion Dynamics to Spatially Monitor the Catalytic Activities of MoS<sub>2</sub>
+                            during the Hydrogen Evolution Reaction
+                        </h6>
+                    </div>
+                    <p class="citation p-0 mb-1"><i>ACS Nano</i>, 16, 4298, (2022)</p>
+    
+                    <div class="d-inline">
+                        <p class="content">Fu-He Hsiao, Cheng-Chu Chung, Chun-Hao Chiang, Wei-Neng Feng, Wen-Yen Tzeng,
+                        Hung-Min Lin, Chien-Ming Tu,
+                        Heng-Liang Wu, Yu-Han Wang, Wei-Yen Woon, Hsiao-Chien Chen, Ching-Hsiang Chen, Chao-Yuan Lo,
+                        Man-Hong Lai, Yu-
+                        Ming Chang, Li-Syuan Lu, Wen-Hao Chang, Chun-Wei Chen*, and Chih-Wei Luo*</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded publication-selected">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 d-none d-lg-flex flex-wrap align-items-center justify-content-center ">
+                    <img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-022-29207-6/MediaObjects/41467_2022_29207_Fig1_HTML.png?as=webp" alt="need pic here" class="img-fluid d-block publication-pic-size publication-pic shadow overflow-hidden"
+                        onclick="window.open('https://www.nature.com/articles/s41467-022-29207-6', '_blank').focus();"
+                        style="cursor:pointer">
+                </div>
+                <div class="col-12 col-lg-9 publication-content">
+                    <div>
+                        <h6 class="fw-bold publication-topic-fonts mb-0"
+                            onclick="window.open('https://www.nature.com/articles/s41467-022-29207-6', '_blank').focus();"
+                            style="cursor: pointer">Direct investigation of the reorientational dynamics of A-site cations in 2D organic-inorganic
+                            hybrid perovskite by
+                            solid-state NMR
+                        </h6>
+                    </div>
+                    <p class="citation p-0 mb-1"><i>Nature Communications</i>, 13, 1513, (2022)</p>
+    
+                    <div class="d-inline">
+                        <p class="content">Cheng-Chieh Lin, Shing-Jong Huang, Pei-Hao Wu, Tzu-Pei Chen, Chih-Ying Huang,
+                        Ying-Chiao Wang, Po-Tuan Chen,
+                        Denitsa Radeva, Ognyan Petrov, Vladimir M. Gelev, Raman Sankar ,Chia-Chun Chen, Chun-Wei Chen*,
+                        and Tsyr-Yan Yu*</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded publication-selected">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 d-none d-lg-flex flex-wrap align-items-center justify-content-center ">
+                    <img src="https://pubs.acs.org/cms/10.1021/jacs.2c06060/asset/images/medium/ja2c06060_0007.gif" alt="need pic here"
+                        class="img-fluid d-block publication-pic-size publication-pic shadow overflow-hidden"
+                        onclick="window.open('https://pubs.acs.org/doi/10.1021/jacs.2c06060', '_blank').focus();" style="cursor:pointer">
+                </div>
+                <div class="col-12 col-lg-9 publication-content">
+                    <div>
+                        <h6 class="fw-bold publication-topic-fonts mb-0"
+                            onclick="window.open('https://pubs.acs.org/doi/10.1021/jacs.2c06060', '_blank').focus();"
+                            style="cursor: pointer">Spin-Polarized Photocatalytic CO<sub>2</sub> Reduction of Mn-Doped Perovskite Nanoplates
+                        </h6>
+                    </div>
+                    <p class="citation p-0 mb-1"><i>Journal of American Chemical Society</i>, 144, 15718,
+                    (2022)</p>
+    
+                    <div class="d-inline">
+                        <p class="content">Cheng-Chieh Lin, Ting-Ran Liu, Sin-Rong Lin, Karunakara Moorthy Boopathi,
+                        Chun-Hao Chiang, Wen-Yen Tzeng, Wan-
+                        Hsiu Chang Chien, Hua-Shu Hsu, Chih-Wei Luo, Hui-Ying Tsai, Hsin-An Chen,Pai-Chia Kuo, Jessie
+                        Shiue, Jau-Wern Chiou,
+                        Way-Faung Pong, Chia-Chun Chen*, and Chun-Wei Chen</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded publication-selected">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 d-none d-lg-flex flex-wrap align-items-center justify-content-center ">
+                    <img src="https://pubs.acs.org/cms/10.1021/acsnano.2c05986/asset/images/medium/nn2c05986_0006.gif" alt="need pic here"
+                        class="img-fluid d-block publication-pic-size publication-pic shadow overflow-hidden"
+                        onclick="window.open('https://pubs.acs.org/doi/10.1021/acsnano.2c05986', '_blank').focus();" style="cursor:pointer">
+                </div>
+                <div class="col-12 col-lg-9 publication-content">
+                    <div>
+                        <h6 class="fw-bold publication-topic-fonts mb-0"
+                            onclick="window.open('https://pubs.acs.org/doi/10.1021/acsnano.2c05986', '_blank').focus();"
+                            style="cursor: pointer">
+                            Bifunctional Monolayer WSe<sub>2</sub>/Graphene Self-Stitching Heterojunction Microreactors for
+                            Efficient Overall Water Splitting in Neutral Medium
+                        </h6>
+                    </div>
+                    <p class="citation p-0 mb-1"><i>ACS Nano</i>, 16, 18274,
+                    (2022)</p>
+    
+                    <div class="d-inline">
+                        <p class="content">Chun-Hao Chiang, Yueh-Chiang Yang, Jia-Wei Lin, Yung-Chang Lin, Po-Tuan Chen,
+                        Chung-Li Dong, Hung-Min Lin, Kwun
+                        Man Chan,Yu-Ting Kao, Kazu Suenaga, Po-Wen Chiu*, and Chun-Wei Chen*</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded publication-selected">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 d-none d-lg-flex flex-wrap align-items-center justify-content-center ">
+                    <img src="https://onlinelibrary.wiley.com/cms/asset/03b5dfcd-3383-4349-937f-f7873e29d2e5/smll.v18.44.cover.jpg" alt="need pic here" class="img-fluid d-block publication-pic-size publication-pic shadow overflow-hidden"
+                        onclick="window.open('https://onlinelibrary.wiley.com/doi/10.1002/smll.202204070', '_blank').focus();"
+                        style="cursor:pointer">
+                </div>
+                <div class="col-12 col-lg-9 publication-content">
+                    <div>
+                        <h6 class="fw-bold publication-topic-fonts mb-0"
+                            onclick="window.open('https://onlinelibrary.wiley.com/doi/10.1002/smll.202204070', '_blank').focus();"
+                            style="cursor: pointer">
+                            Ligand Engineering and Recrystallization of Perovskite Quantum-Dot Thin Film for Low-Threshold
+                            Plasmonic Lattice Laser
+                        </h6>
+                    </div>
+                    <p class="citation p-0 mb-1"><i>Small</i>, 18, 22040, (2022)</p>
+    
+                    <div class="d-inline">
+                        <p class="content">Di Xing, Cheng-Chieh Lin, Ya-Lun Ho, Yang-Chun Lee, Mu-Hsin Chen, Bo-Wei Lin,
+                        Chun-Wei Chen*, and Jean-Jacques
+                        Delaunay</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- 2021 Publications -->
     <div class="container w-75 mx-auto my-4 fw-bold fs-4 border-bottom" id="2021">2021
     </div>
 
-    <!-- Atomically Resolved Quantum-Confined Electronic Structures at Organic–Inorganic Interfaces of Two-Dimensional Ruddlesden–Popper Halide Perovskites -->
-    <!-- Nano Lett. 2021, 21, 19, 8066–8072 -->
-    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded">
+    <!--2021 Publication 1 (2023/02/14)-->
+    <div class="container w-75 mx-auto my-2 shadow p-3 mb-5 rounded publication-selected">
         <div class="container-fluid">
             <div class="row">
-                <!-- Show full entity when > 768px -->
-                <div class="col-3 d-none d-md-flex flex-wrap align-items-center justify-content-center">
-
-                    <!-- CHANGE Representative image in src=""-->
-                    <img src="https://pubs.acs.org/cms/10.1021/acs.nanolett.1c02409/asset/images/medium/nl1c02409_0005.gif" alt="Representative picture here"
-                        class="img-fluid d-block publication-pic-size overflow-hidden">
+                <div class="col-3 d-none d-lg-flex flex-wrap align-items-center justify-content-center ">
+                    <img src="https://pubs.acs.org/cms/10.1021/acs.nanolett.1c02409/asset/images/medium/nl1c02409_0005.gif"
+                        alt="" class="img-fluid d-block publication-pic-size publication-pic shadow overflow-hidden"
+                        onclick="window.open('https://pubs.acs.org/doi/10.1021/acs.nanolett.1c02409', '_blank').focus();"
+                        style="cursor:pointer">
                 </div>
-                <!-- Show only description when < 768 px -->
-                <div class="col-12 col-md-9 publication-content">
+                <div class="col-12 col-lg-9 publication-content">
                     <div>
-
-                        <!-- CHANGE TOPIC in h6 -->
-                        <h6 class="fw-bold publication-topic-fs mb-0"><a class="publication-topic-link" target="_blank" rel="noopener noreferrer" href="https://pubs.acs.org/doi/10.1021/acs.nanolett.1c02409?ref=pdf">Atomically Resolved Quantum-Confined Electronic Structures at Organic–Inorganic Interfaces of Two-Dimensional
-                        Ruddlesden–Popper Halide Perovskites</a></h6>
+                        <h6 class="fw-bold publication-topic-fonts mb-0"
+                            onclick="window.open('https://pubs.acs.org/doi/10.1021/acs.nanolett.1c02409', '_blank').focus();"
+                            style="cursor: pointer">Atomically Resolved Quantum-Confined Electronic Structures at Organic−Inorganic Interfaces of Two-Dimensional Ruddlesden−Popper Halide Perovskites
+                        </h6>
                     </div>
-
-                    <!-- CHANGE publication date -->
-                    <p class="text-info content-fs p-0 mb-1">2021.09.30</p>
-                    <div class="publication-description">
-
-                        <!-- CHANGE Abstract for JQellipsis function -->
-                        <p class="JQellipsis d-md-none content-fs">This work demonstrates the direct visualization of atomically resolved quantum-confined electronic structures at
-                        organic–inorganic heterointerfaces of two-dimensional (2D) organic–inorganic hybrid Ruddlesden–Popper perovskites
-                        (RPPs); this is accomplished with scanning tunneling microscopy (STM) and scanning tunneling spectroscopy (STS) by using
-                        solvent engineering to prepare perpendicularly oriented 2D RPPs. Atomically resolved band mapping images across the
-                        organic–inorganic interfaces of 2D RPPs yield typical quantum-well-like type-I heterojunction band alignment with band
-                        gaps depending on the thicknesses or n values of the inorganic perovskite slabs. The presence of edge states within the
-                        band gap due to organic cation vacancies is also observed. In addition, real-space visualization of atomic-scale
-                        structural phase transition behavior and changes in local electronic band structures are obtained simultaneously. Our
-                        results provide an unequivocal observation and explanation of the quantum-confined electronic structures formed at
-                        organic–inorganic interfaces of 2D RPPs.</p>
-                    </div>
-                    <div class="publication-description overflow-auto">
-
-                        <!-- CHANGE Abstract again here -->
-                        <p class="d-none d-md-inline content-fs">This work demonstrates the direct visualization of atomically resolved quantum-confined electronic structures at
-                        organic–inorganic heterointerfaces of two-dimensional (2D) organic–inorganic hybrid Ruddlesden–Popper perovskites
-                        (RPPs); this is accomplished with scanning tunneling microscopy (STM) and scanning tunneling spectroscopy (STS) by using
-                        solvent engineering to prepare perpendicularly oriented 2D RPPs. Atomically resolved band mapping images across the
-                        organic–inorganic interfaces of 2D RPPs yield typical quantum-well-like type-I heterojunction band alignment with band
-                        gaps depending on the thicknesses or n values of the inorganic perovskite slabs. The presence of edge states within the
-                        band gap due to organic cation vacancies is also observed. In addition, real-space visualization of atomic-scale
-                        structural phase transition behavior and changes in local electronic band structures are obtained simultaneously. Our
-                        results provide an unequivocal observation and explanation of the quantum-confined electronic structures formed at
-                        organic–inorganic interfaces of 2D RPPs.</p>
-                    </div>
-                    <div class="publication-link align-items-center">
-                        <!-- CHANGE hyperlink in href="" -->
-                        <a class="d-inline-block mx-1 mt-1" target="_blank" rel="noopener noreferrer"
-                            href="https://pubs.acs.org/doi/10.1021/acs.nanolett.1c02409?ref=pdf">
-
-                            <!-- CHANGE corresponding icon ./src/icons/file_name_here-->
-                            <img src="./src/icons/acs nanoletters.jpg" alt="small" class="icon-size">
-                        </a>
+                    <p class="citation p-0 mb-1"><i>Nano Letters</i>, 21,19, 8066, (2021)</p>
+    
+                    <div class="d-inline">
+                        <p class="content">Min-Chuan Shih, Hung-Chang Hsu, Cheng-Chieh Lin, Shao-Ku Huang, Tzu-Pei Chen, Yung-Han Tsai, Chia-Chun Chen, Ya-Ping
+                        Chiu,* and Chun-Wei Chen*</p>
                     </div>
                 </div>
             </div>
