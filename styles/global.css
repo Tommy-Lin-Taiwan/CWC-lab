@@ -27,13 +27,21 @@
 }
 
 /* Container sizing setting */
-@media screen and (max-width: 1024px){
-    .w-50-m .w-75-m{
+.w-60{
+    width: 60%;
+}
+
+.w-70{
+    width: 70%;
+}
+
+@media screen and (max-width: 992px){
+    .w-50-m, .w-75-m{
         width: 90%;
     }
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 992px){
     .w-50-m{
         width: 50%;
     }

@@ -1,10 +1,4 @@
 /* publication col size */
-.publication-content{
-    /* max-height 5vh smaller to make it look good when under 1440px width*/
-    /* This css property is the sizing limit of the module. Treat with caution*/
-    max-height: 40vh;
-    max-width: 100%;
-}
 
 .publication-pic-size{
     max-height: 20vh;
@@ -41,17 +35,84 @@
     font-size: 15px;
 }
 
-.publication-selected{
-    background-color: rgba(82, 2, 188, 0.1);
+.publication-bg{
+    background-color: rgba(82, 2, 188, 0.05);
 }
 
 .not-selected, .hide-not-selected{
     display: none;
 }
 
-@media screen and (min-width: 768px) {
+
+@media screen and (max-width: 768px) {
+    .publication-content {
+            /* max-height 5vh smaller to make it look good when under 1440px width*/
+            /* This css property is the sizing limit of the module. Treat with caution*/
+        max-height: 40vh;
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .content {
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .topic-fs {
+        font-size: 15px;
+    }
+
+    .publication-topic-fonts{
+        font-size: 15px;
+        color: rgba(0, 51, 102, 0.9);
+    }
+
+    .citation {
+        font-size: 12px;
+        /*
+        font-family:'Times New Roman', Times, serif;
+        */
+        color: rgba(0, 51, 102, 0.9);
+    }
+
+    .publication-width{
+        width: 80%;
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    /* publication col size */
+        .publication-content {
+            /* max-height 5vh smaller to make it look good when under 1440px width*/
+            max-height: 25vh;
+            max-width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+    
+        /* publication description size */
+        .publication-topic {
+            max-height: 20%;
+        }
+    
+        .publication-description {
+            max-height: 60%;
+        }
+    
+        .publication-link {
+            max-height: 15%;
+        }
+    
+    .acs-size {
+        max-height: 20px;
+    }
+    
     .content {
         font-size: 12px;
+        margin: 0;
+        padding: 0;
     }
 
     .topic-fs {
@@ -70,58 +131,10 @@
         */
         color: rgba(0, 51, 102, 0.9);
     }
-}
 
-
-@media screen and (max-width: 767px){
-    .citation{
-        font-size: 12.5px;
-        /*
-        font-family:'Times New Roman', Times, serif;
-        */
-        color: rgba(0, 51, 102, 0.9);
+    .publication-width{
+        width: 67%;
     }
-    .publication-topic-fonts{
-        font-size: 15px;
-        color: rgba(0, 51, 102, 0.9);
-    }
-
-    .publication-description{
-        display: none;
-    }
-
-    .content{
-        font-size: 10px;
-    }
-}
-    
-
-
-
-@media screen and (min-width: 768px){
-    /* publication col size */
-        .publication-content {
-            /* max-height 5vh smaller to make it look good when under 1440px width*/
-            max-height: 20vh;
-            max-width: 100%;
-        }
-    
-        /* publication description size */
-        .publication-topic {
-            max-height: 20%;
-        }
-    
-        .publication-description {
-            max-height: 60%;
-        }
-    
-        .publication-link {
-            max-height: 15%;
-        }
-    
-        .acs-size {
-            max-height: 20px;
-        }
 }
 
 .publication-button{
@@ -140,9 +153,14 @@
 
 /* Below css properties dedicate to the selected publication page. Modify the properties here does not affect the publication page */
 
+
 @media screen and (max-width: 992px) {
     .selected-div{
         width: 80%;
+    }
+
+    .selected-content{
+        max-height: 40vh;
     }
 
     .selected-topic{
@@ -171,6 +189,10 @@
         width: 60%;
     }
 
+    .selected-pic, .selected-content{
+        max-height: 20vh;
+    }
+
     .selected-topic {
         font-size: 18px;
         padding-bottom: 0px;
@@ -187,8 +209,8 @@
     
     .selected-author {
         font-size: 13px;
-        margin-top: 0px;
-        padding-top: 0px;
+        margin: 0 auto;
+        padding: 0 auto;
     }
 }
 
@@ -198,4 +220,10 @@
 
 .selected-underline{
     border-bottom: 2px solid black;
+}
+
+.selected-div-inner{
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
