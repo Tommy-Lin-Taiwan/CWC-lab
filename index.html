@@ -30,7 +30,7 @@
     </div>
 
     <!-- navbar container -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mx-5 my-2">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mx-5 my-2 rounded">
         <!-- Container wrapper -->
         <div class="container-fluid">
             <!-- Topic of navbar-->
@@ -45,29 +45,29 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
                 <!-- Left links -->
                 <ul class="navbar-nav mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link fs-5 active" aria-current="page" href="./index.html">Home</a>
+                    <li class="nav-item nav-main-margin">
+                        <a class="nav-link fs-5 nav-main active" aria-current="page" href="./index.html">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link fs-5" href="./news.html">News</a>
+                    <li class="nav-item nav-main-margin">
+                        <a class="nav-link fs-5 nav-main" href="./news.html">News</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link fs-5" href="./director.html">Director</a>
+                    <li class="nav-item nav-main-margin">
+                        <a class="nav-link fs-5 nav-main" href="./director.html">Director</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link fs-5" href="./research.html">Research</a>
+                    <li class="nav-item nav-main-margin">
+                        <a class="nav-link fs-5 nav-main" href="./research.html">Research</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link fs-5" href="./facilities.html">Facilities</a>
+                    <li class="nav-item nav-main-margin">
+                        <a class="nav-link fs-5 nav-main" href="./facilities.html">Facilities</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link fs-5" href="./publication.html">Publications</a>
+                    <li class="nav-item nav-main-margin">
+                        <a class="nav-link fs-5 nav-main" href="./publication.html">Publications</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link fs-5" href="./member.html">Member</a>
+                    <li class="nav-item nav-main-margin">
+                        <a class="nav-link fs-5 nav-main" href="./member.html">Member</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link fs-5" href="./contact.html">Contact</a>
+                    <li class="nav-item nav-main-margin">
+                        <a class="nav-link fs-5 nav-main" href="./contact.html">Contact</a>
                     </li>
                 </ul>
                 <!-- Left links -->
@@ -99,7 +99,7 @@
         <div class="carousel-inner">
 
             <!-- data-bs-interval set to 5000 ms -->
-            <div class="carousel-item active d-flex align-items-center justify-content-center overflow-hidden carousel-height" data-bs-interval="5000">
+            <div class="carousel-item active d-flex align-items-center justify-content-center overflow-hidden carousel-height cursor-pointer" data-bs-interval="5000" onclick="location.href='./posts/post-2.html'">
 
                 <!-- image source of this carousel item -->
                 <img src="./src/index_src/spin selective.png" class="d-block carousel-img"
@@ -110,7 +110,7 @@
                 </div>
             </div>
 
-            <div class="carousel-item d-flex align-items-center justify-content-center overflow-hidden carousel-height" data-bs-interval="5000">
+            <div class="carousel-item d-flex align-items-center justify-content-center overflow-hidden carousel-height cursor-pointer" data-bs-interval="5000" onclick="location.href='./posts/post-2.html'">
                 <img src="./src/index_src/CWCfellow.png" class="d-block carousel-img"
                     alt="pic-3">
                 <div class="carousel-caption d-block p-1 mb-0 bg-dark opacity-75">
@@ -119,7 +119,7 @@
                 </div>
             </div>
 
-            <div class="carousel-item d-flex align-items-center justify-content-center overflow-hidden carousel-height" data-bs-interval="5000">
+            <div class="carousel-item d-flex align-items-center justify-content-center overflow-hidden carousel-height cursor-pointer" data-bs-interval="5000" onclick="location.href='./posts/post-2.html'">
                 <img src="./src/group photos/2023 workshop.jpg" class="d-block carousel-img"
                     alt="pic-4">
                 <div class="carousel-caption d-block p-1 mb-0 bg-dark opacity-75">
@@ -162,46 +162,35 @@
     </div>
 
     <!-- Recent Posts -->
+    <!-- 
     <div class="container w-75 shadow p-2 my-5 rounded">
         <div class="container text-center mb-5 fw-bold fs-2">Recent Posts</div>
         <div class="container px-5 mx-auto">
-            <!-- Please keep this area with 3 posts only -->
 
-            <!-- Link 1 -->
             <div class="container mx-auto mb-2">
             
-                <!-- Target link (./posts/html file)-->
                 <a href="./posts/post_20231101.html"
                     class="d-block fs-6 link-info link-opacity-100 link-opacity-50-hover link-underline-none">Introduction to our lab</a>
             
-                <!-- Short description -->
                 <p class="text-info link-description">Nov 01, 2023</p>
             </div>
 
-            <!-- Link 2 -->
             <div class="container mx-auto mb-2">
 
-                <!-- Target link (./posts/html file)-->
                 <a href="./posts/post-1.html" class="d-block fs-6 link-info link-opacity-100 link-opacity-50-hover link-underline-none">New PhD Positions Available! </a>
 
-                <!-- Short description -->
                 <p class="text-info link-description">Aug 12, 2023</p>
             </div>
-
-            <!-- Link 3 -->
             <div class="container mx-auto mb-5">
 
-                <!-- Target link (./posts/html file)-->
                 <a href="./posts/post-2.html" class="d-block fs-6 link-info link-opacity-100 link-opacity-50-hover link-underline-none">Test link 2</a>
 
-                <!-- Short Description -->
                 <p class="text-info link-description">Aug 12, 2023</p>
             </div>
-
-            <!-- Link to news.html -->
             <a href="./news.html" class="d-block fs-5 my-3 link-info link-opacity-100 link-opacity-50-hover link-underline-none"><i class="fa fa-arrow-right me-3"></i>See more posts...</a>
         </div>
-    </div>
+    </div> 
+    -->
 
 
     <!-- Footer Module v2 -->
