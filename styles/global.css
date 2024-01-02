@@ -116,6 +116,17 @@
     background-color: darksalmon;
 }
 
+.nav-ul {
+    padding: 0;
+    margin: 1%;
+}
+
+.nav-text {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
 
 
 /* Carousel Settings */

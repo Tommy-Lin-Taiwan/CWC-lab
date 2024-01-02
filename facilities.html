@@ -82,8 +82,8 @@
 
     <!-- Introduction Div -->
     <div class="container w-75 mx-auto my-5 text-center">
-        <h2 class="mx-auto fw-bold mb-2"> Our Facilities </h2>
-        <p class="text-justify fs-6 mx-auto my-2 w-75">Welcome to our lab! Here, we run experiments with not only a solid background in both theoretical and experimental considerations, but also the help of a variety of equipments, including Raman Systems, Atomic Force Microscopy, Lithography Projectors and more!</p>
+        <h2 class="mx-auto fw-bold mb-2"> Facilities </h2>
+        <!-- <p class="text-justify fs-6 mx-auto my-2 w-75">Welcome to our lab! Here, we run experiments with not only a solid background in both theoretical and experimental considerations, but also the help of a variety of equipments, including Raman Systems, Atomic Force Microscopy, Lithography Projectors and more!</p> -->
     </div>
 
 
@@ -104,11 +104,26 @@
             <!-- Collapsible wrapper -->
             <div class="collapse navbar-collapse justify-content-center" id="Submenu">
                 <ul class="navbar-nav mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link fs-5" href="#cha">Characterizations</a>
+                    <li class="nav-item fs-5 d-flex align-items-center">
+                        <a class="nav-link nav-ul" href="#growth">
+                            <div class="container-fluid">
+                                <p class="nav-text px-2 m-1">Material<br>Growth</p>
+                            </div>
+                        </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link fs-5" href="#pro">Fabrications</a>
+                    <li class="nav-item fs-5 d-flex align-items-center">
+                        <a class="nav-link nav-ul" href="#cha">
+                            <div class="container-fluid">
+                                <p class="nav-text px-2 m-1">Characterization</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item fs-5 d-flex align-items-center">
+                        <a class="nav-link nav-ul" href="#pro">
+                            <div class="container-fluid">
+                                <p class="nav-text px-2 m-1">Device<br>Fabrication</p>
+                            </div>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -116,16 +131,34 @@
     </nav>
 
 
+    <!-- Materials Growth Modules -->
+    <div class="container mx-auto my-5 w-75" id="growth">
+        <h4 class="mx-auto fw-bold mb-4"><i class="fa fa-list me-3" aria-hidden="false"></i>Material Growth</h4>
+        <!--Characterization Container -->
+        <div class="container-fluid mb-2">
+            <div class="row">
+    
+                <!-- CVD System I -->
+                <div class="col-12 col-md-6 col-lg-4 mb-5 ">
+                    <div class="d-flex flex-wrap align-items-center justify-content-center m-3 shadow p-1 rounded">
+                        <img src="./src/facilities_src/307 AFM.jpg" alt="" class="img-fluid overflow-hidden facility-pic">
+                    </div>
+                    <h6 class="mx-auto fw-bold mb-2 text-center">CVD System I</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- Characterization Modules -->
     <div class="container mx-auto my-5 w-75" id="cha">
-        <h4 class="mx-auto fw-bold mb-4"><i class="fa fa-list me-3" aria-hidden="false"></i>Characterizations</h4>
+        <h4 class="mx-auto fw-bold mb-4"><i class="fa fa-list me-3" aria-hidden="false"></i>Characterization</h4>
         <!--Characterization Container -->
         <div class="container-fluid mb-2">
             <div class="row">
 
                 <!-- Innova AFM -->
-                <div class="col-12 col-md-6 col-lg-4 mb-5 cursor-pointer"
-                    onclick="location.href='./facilities/innovaAFM.html'">
+                <div class="col-12 col-md-6 col-lg-4 mb-5 ">
                     <div class="d-flex flex-wrap align-items-center justify-content-center m-3 shadow p-1 rounded">
                         <img src="./src/facilities_src/307 AFM.jpg" alt="" class="img-fluid overflow-hidden facility-pic">
                     </div>
@@ -133,8 +166,7 @@
                 </div>
 
                 <!-- Raman (Front) -->
-                <div class="col-12 col-md-6 col-lg-4 mb-5 cursor-pointer"
-                    onclick="location.href='./facilities/Raman_System_I.html'">
+                <div class="col-12 col-md-6 col-lg-4 mb-5 ">
                     <div class="d-flex flex-wrap align-items-center justify-content-center m-3 shadow p-1 rounded">
                         <img src="./src/facilities_src/307 Raman 1.jpg" alt="" class="img-fluid overflow-hidden facility-pic">
                     </div>
@@ -142,8 +174,7 @@
                 </div>
 
                 <!-- Raman (Back)) -->
-                <div class="col-12 col-md-6 col-lg-4 mb-5 cursor-pointer"
-                    onclick="location.href='./facilities/Raman_System_II.html'">
+                <div class="col-12 col-md-6 col-lg-4 mb-5 ">
                     <div class="d-flex flex-wrap align-items-center justify-content-center m-3 shadow p-1 rounded">
                         <img src="./src/facilities_src/307 Raman 2.jpg" alt="" class="img-fluid overflow-hidden facility-pic">
                     </div>
@@ -151,8 +182,7 @@
                 </div>
 
                 <!-- UV-Vis -->
-                <div class="col-12 col-md-6 col-lg-4 mb-5 cursor-pointer"
-                    onclick="location.href='./facilities/innovaAFM.html'">
+                <div class="col-12 col-md-6 col-lg-4 mb-5 ">
                     <div class="d-flex flex-wrap align-items-center justify-content-center m-3 shadow p-1 rounded">
                         <img src="./src/facilities_src/307 UV-Vis.jpg" alt="" class="img-fluid overflow-hidden facility-pic">
                     </div>
@@ -160,7 +190,7 @@
                 </div>
 
                 <!-- Optical Microscope -->
-                <div class="col-12 col-md-6 col-lg-4 mb-5 cursor-pointer" onclick="location.href='./facilities/innovaAFM.html'">
+                <div class="col-12 col-md-6 col-lg-4 mb-5 ">
                     <div class="d-flex flex-wrap align-items-center justify-content-center m-3 shadow p-1 rounded">
                         <img src="./src/facilities_src/307 OM.jpg" alt="" class="img-fluid overflow-hidden facility-pic">
                     </div>
@@ -168,7 +198,7 @@
                 </div>
 
                 <!-- Probe Station -->
-                <div class="col-12 col-md-6 col-lg-4 mb-5 cursor-pointer" onclick="location.href='./facilities/innovaAFM.html'">
+                <div class="col-12 col-md-6 col-lg-4 mb-5 ">
                     <div class="d-flex flex-wrap align-items-center justify-content-center m-3 shadow p-1 rounded">
                         <img src="./src/facilities_src/307 probe station.jpg" alt="" class="img-fluid overflow-hidden facility-pic">
                     </div>
@@ -176,8 +206,7 @@
                 </div>
 
                 <!-- Alpha Step -->
-                <div class="col-12 col-md-6 col-lg-4 mb-5 cursor-pointer"
-                    onclick="location.href='./facilities/innovaAFM.html'">
+                <div class="col-12 col-md-6 col-lg-4 mb-5 ">
                     <div class="d-flex flex-wrap align-items-center justify-content-center m-3 shadow p-1 rounded">
                         <img src="./src/facilities_src/307 alpha step.jpg" alt="" class="img-fluid overflow-hidden facility-pic">
                     </div>
@@ -190,13 +219,13 @@
 
     <!-- Procedure Modules -->
     <div class="container mx-auto my-5 w-75" id="pro">
-        <h4 class="mx-auto fw-bold mb-4"><i class="fa fa-list me-3" aria-hidden="false"></i>Fabrications</h4>
+        <h4 class="mx-auto fw-bold mb-4"><i class="fa fa-list me-3" aria-hidden="false"></i>Device Fabrication</h4>
             <!--Characterization Container -->
             <div class="container-fluid mb-2">
                 <div class="row">
             
                     <!-- Solar Simulators & Autolabs -->
-                    <div class="col-12 col-md-6 col-lg-4 mb-5 cursor-pointer" onclick="location.href='./facilities/innovaAFM.html'">
+                    <div class="col-12 col-md-6 col-lg-4 mb-5 ">
                         <div class="d-flex flex-wrap align-items-center justify-content-center m-3 shadow p-1 rounded">
                             <img src="./src/facilities_src/308 solar simulator.jpg" alt="" class="img-fluid overflow-hidden facility-pic">
                         </div>
@@ -204,7 +233,7 @@
                     </div>
 
                     <!-- 308 Evaporate -->
-                    <div class="col-12 col-md-6 col-lg-4 mb-5 cursor-pointer" onclick="location.href='./facilities/innovaAFM.html'">
+                    <div class="col-12 col-md-6 col-lg-4 mb-5 ">
                         <div class="d-flex flex-wrap align-items-center justify-content-center m-3 shadow p-1 rounded">
                             <img src="./src/facilities_src/308 evaporate.jpg" alt="" class="img-fluid overflow-hidden facility-pic">
                         </div>
@@ -212,7 +241,7 @@
                     </div>
 
                     <!-- 311 Evaporate -->
-                    <div class="col-12 col-md-6 col-lg-4 mb-5 cursor-pointer" onclick="location.href='./facilities/innovaAFM.html'">
+                    <div class="col-12 col-md-6 col-lg-4 mb-5 ">
                         <div class="d-flex flex-wrap align-items-center justify-content-center m-3 shadow p-1 rounded">
                             <img src="./src/facilities_src/311 evaporate.jpg" alt="" class="img-fluid overflow-hidden facility-pic">
                         </div>
@@ -220,7 +249,7 @@
                     </div>
 
                     <!-- 308 Plasma -->
-                    <div class="col-12 col-md-6 col-lg-4 mb-5 cursor-pointer" onclick="location.href='./facilities/innovaAFM.html'">
+                    <div class="col-12 col-md-6 col-lg-4 mb-5 ">
                         <div class="d-flex flex-wrap align-items-center justify-content-center m-3 shadow p-1 rounded">
                             <img src="./src/facilities_src/308 plasma.jpg" alt="" class="img-fluid overflow-hidden facility-pic">
                         </div>
@@ -228,7 +257,7 @@
                     </div>
 
                     <!-- 308 glove box -->
-                    <div class="col-12 col-md-6 col-lg-4 mb-5 cursor-pointer" onclick="location.href='./facilities/innovaAFM.html'">
+                    <div class="col-12 col-md-6 col-lg-4 mb-5 ">
                         <div class="d-flex flex-wrap align-items-center justify-content-center m-3 shadow p-1 rounded">
                             <img src="./src/facilities_src/308 glove box.jpg" alt="" class="img-fluid overflow-hidden facility-pic">
                         </div>
@@ -236,7 +265,7 @@
                     </div>
 
                     <!-- 311 supttering -->
-                    <div class="col-12 col-md-6 col-lg-4 mb-5 cursor-pointer" onclick="location.href='./facilities/innovaAFM.html'">
+                    <div class="col-12 col-md-6 col-lg-4 mb-5 ">
                         <div class="d-flex flex-wrap align-items-center justify-content-center m-3 shadow p-1 rounded">
                             <img src="./src/facilities_src/311 sputter.jpg" alt="" class="img-fluid overflow-hidden facility-pic">
                         </div>
@@ -244,7 +273,7 @@
                     </div>
 
                     <!-- 311 lithography 1 -->
-                    <div class="col-12 col-md-6 col-lg-4 mb-5 cursor-pointer" onclick="location.href='./facilities/innovaAFM.html'">
+                    <div class="col-12 col-md-6 col-lg-4 mb-5 ">
                         <div class="d-flex flex-wrap align-items-center justify-content-center m-3 shadow p-1 rounded">
                             <img src="./src/facilities_src/311 lithography 1.jpg" alt="" class="img-fluid overflow-hidden facility-pic">
                         </div>
@@ -252,7 +281,7 @@
                     </div>
 
                     <!-- 311 lithography 2 -->
-                    <div class="col-12 col-md-6 col-lg-4 mb-5 cursor-pointer" onclick="location.href='./facilities/innovaAFM.html'">
+                    <div class="col-12 col-md-6 col-lg-4 mb-5 ">
                         <div class="d-flex flex-wrap align-items-center justify-content-center m-3 shadow p-1 rounded">
                             <img src="./src/facilities_src/311 lithography 2.jpg" alt="" class="img-fluid overflow-hidden facility-pic">
                         </div>
@@ -260,7 +289,7 @@
                     </div>
 
                     <!-- 311 RTA -->
-                    <div class="col-12 col-md-6 col-lg-4 mb-5 cursor-pointer" onclick="location.href='./facilities/innovaAFM.html'">
+                    <div class="col-12 col-md-6 col-lg-4 mb-5 ">
                         <div class="d-flex flex-wrap align-items-center justify-content-center m-3 shadow p-1 rounded">
                             <img src="./src/facilities_src/311 RTA.jpg" alt="" class="img-fluid overflow-hidden facility-pic">
                         </div>
@@ -268,7 +297,7 @@
                     </div>
 
                     <!-- 311 centrifuge -->
-                    <div class="col-12 col-md-6 col-lg-4 mb-5 cursor-pointer" onclick="location.href='./facilities/innovaAFM.html'">
+                    <div class="col-12 col-md-6 col-lg-4 mb-5 ">
                         <div class="d-flex flex-wrap align-items-center justify-content-center m-3 shadow p-1 rounded">
                             <img src="./src/facilities_src/311 centrifuge.jpg" alt="" class="img-fluid overflow-hidden facility-pic">
                         </div>
