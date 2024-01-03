@@ -111,6 +111,11 @@
     color: rgba(0, 51, 102, 0.9);
 }
 
+.break-word{
+    word-wrap: break-word;
+    white-space: pre-line;
+    overflow-wrap:break-word;
+}
 /* navbar settings */
 .navbar-btn-hover:hover{
     background-color: darkorchid;
@@ -303,6 +308,30 @@
         border-radius: 5%;
     }
 }
+
+@media screen and (min-width: 768px){
+    .group-pic{
+        max-width: 600px;
+        border-radius: 5%;
+    }
+}
+
+
+/* Member: Alumni settings */
+
+@media screen and (max-width: 992px) {
+    .alumni-div {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .alumni-div {
+        width: 67%;
+    }
+
+}
+
 
 /* facilities */
 .facility-pic{
