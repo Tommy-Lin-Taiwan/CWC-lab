@@ -152,18 +152,65 @@
     </div>
 
 
-    <!-- Introduction Div -->
-    <div class="text-center mx-auto my-5 w-75">
-        <h2 class="mx-auto fw-bold mb-2"> Our Members </h6>
-            <p class="mx-auto text-center fs-6 my-2">As a highly-motivated research group, our members are both experienced and enthusiastic towards pioneering in atomic scale devices and exploring interesting physics under 2D-scaled limitations!</p>
+    <!--Topic div-->
+        <div class="text-center mx-auto my-5 w-75">
+            <h1 class="mx-auto fw-bold mb-2"> Members </h1>
+        </div>
+
+
+    <!-- Submenu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mx-5 my-5">
+        <div class="container-fluid">
+            <a class="navbar-brand d-inline d-lg-none">Members</a>
+            <button class="navbar-toggler navbar-btn-hover" type="button" data-bs-toggle="collapse"
+                data-bs-target="#Submenu" aria-controls="Submenu" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+    
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse justify-content-center" id="Submenu">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item fs-5 d-flex align-items-center">
+                        <a class="nav-link nav-ul" href="#member">
+                            <div class="container-fluid">
+                                <p class="nav-text px-2 m-1">Current Members</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item fs-5 d-flex align-items-center">
+                        <a class="nav-link nav-ul" href="#alumni">
+                            <div class="container-fluid">
+                                <p class="nav-text px-2 m-1">Alumni</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item fs-5 d-flex align-items-center">
+                        <a class="nav-link nav-ul" href="./group_photo.html">
+                            <div class="container-fluid">
+                                <p class="nav-text px-2 m-1">Group Photos</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+
+
+    <!-- Member Div -->
+    <div class="text-center mx-auto my-5 w-75 border-bottom">
+        <h2 class="mx-auto fw-bold mb-2" id="member"> Current Members </h6><!-- 
+            <p class="mx-auto text-center fs-6 my-2">As a highly-motivated research group, our members are both experienced and enthusiastic towards pioneering in atomic scale devices and exploring interesting physics under 2D-scaled limitations!</p> -->
     </div>
 
     <!-- This requires same height/width info for all pictures, otherwise the responsive design breaks or get partial overflow hidden-->
     <!-- Fixing this requires fixing img size, which makes img-fluid useless -->
 
 
-    <!-- PhD Members -->
-    <div class="container mx-auto my-5 w-75">
+    <!-- RD and Post-doc Members -->
+    <div class="container mx-auto mt-2 mb-5 w-75">
         <h4 class="mx-auto fw-bold mb-4"><i class="fa fa-list me-3" aria-hidden="false"></i> Research Assistants</h2>
             <div class="container-fluid mb-2">
                 <div class="row">
@@ -175,12 +222,18 @@
                             <h6 class="mx-auto fw-bold m-2 text-center member-name"> Cheng Chang</h6>
                         </div>
                     </div>
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-5" onclick="location.href='#'">
+                        <div class="d-flex flex-wrap align-items-center justify-content-center shadow p-4 rounded member-div">
+                            <img src="./src/personal photos/Po-Hsien Wu.jpg" alt="" class="img-fluid overflow-hidden member-pic">
+                            <h6 class="mx-auto fw-bold m-2 text-center member-name"> Po-Shien Wu</h6>
+                        </div>
+                    </div>
                 </div>
             </div>
     </div>
 
 
-    <!-- Post-doc Members -->
+    <!-- Post-doc Members --><!-- 
     <div class="container mx-auto my-5 w-75">
         <h4 class="mx-auto fw-bold mb-4"><i class="fa fa-list me-3" aria-hidden="false"></i> Post-Doctoral Members</h2>
         <div class="container-fluid mb-2">
@@ -193,7 +246,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- PhD Members -->
     <div class="container mx-auto my-5 w-75">
@@ -322,38 +375,15 @@
                         <h6 class="mx-auto fw-bold m-2 text-center member-name "> Yueh-Jung Chen</h6>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-5 " onclick="location.href='#'">
-                    <div class="d-flex flex-wrap align-items-center justify-content-center shadow p-4 rounded member-div ">
-                        <img src="./src/personal photos/鄭詠臻.jpeg" alt="" class="img-fluid overflow-hidden member-pic ">
-                        <h6 class="mx-auto fw-bold m-2 text-center member-name "> 鄭詠臻</h6>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
 
 
-    <!-- Group Photo Div -->
-    <div class="container text-center mx-auto my-5 w-75">
-        <h2 class="mx-auto fw-bold mb-2">Group Photos</h2>
-        <p class="mx-auto text-center fs-6 mt-2 mb-5">We just passed the 20th anniversary of our lab! Our group has prospered during the past 20 years and have a lot of outstanding researchers along these years. Group Photos are a way to memorize them and remind us how many brilliant minds we need for ideas to merge and breakthroughs to be made!</p>
-
-        <!-- Group Pic Module -->
-        <div class="container mx-auto mb-3 align-items-center justify-content-center p-5 rounded">
-            <h5 class="mx-auto mb-1 fw-bold">Group Photo 2017</h5>
-            <img src="./src/group photos/2017 group photo.JPG" alt="" class="img-fluid overflow-hidden my-2 group-pic">
-        </div>
-
-        <div class="container mx-auto mb-3 align-items-center justify-content-center p-5 rounded">
-            <h5 class="mx-auto mb-1 fw-bold">Group Photo 2016</h5>
-            <img src="./src/group photos/2016 group photo.JPG" alt="" class="img-fluid overflow-hidden my-2 group-pic">
-        </div>
-    </div>
-
     <!-- Graduated Members -->
-    <div class="text-center mx-auto my-5 w-75">
-        <h2 class="mx-auto fw-bold mb-2"> Alumni </h6>
-            <p class="mx-auto text-center fs-6 my-2">Our alumni keep on shining in related fields and continue to contribute to the world of atomic materials! </p>
+    <div class="text-center mx-auto my-5 w-75 border-bottom">
+        <h2 class="mx-auto fw-bold mb-2" id="alumni"> Alumni </h6><!-- 
+            <p class="mx-auto text-center fs-6 my-2">Our alumni keep on shining in related fields and continue to contribute to the world of atomic materials! </p> -->
     </div>
 
     <div class="container mx-auto my-5 w-75">
