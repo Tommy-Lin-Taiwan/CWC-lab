@@ -144,6 +144,10 @@
     margin: 0.6vw;
 }
 
+.nav-sub-width{
+    width: 80%;
+}
+
 
 
 /* Carousel Settings */
@@ -336,4 +340,9 @@
 /* facilities */
 .facility-pic{
     max-height: 35vh;
+}
+
+/* footer sections */
+.footer-bg{
+    background-color: rgba(79, 42, 215, 0.85);
 }
