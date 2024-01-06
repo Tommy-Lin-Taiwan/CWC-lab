@@ -3,6 +3,11 @@
 
 
 /* index.html css settings */
+.index-div{
+    position: relative;
+    background-color: black;
+}
+
 .index-pic{
     width: 50vw;
 }
@@ -13,6 +18,7 @@
     left: 55vw;
     font-size: 8vw;
     font-family: 'Great Vibes', cursive;
+    color: white;
 }
 
 .index-text-sub{
@@ -34,6 +40,16 @@
 
 .index-btn:hover{
     color: rgba(0, 51, 102, 0.5);
+}
+
+.index-btn-original{
+    text-decoration: none;
+    font-size: 3vw;
+    color:rgba(127, 51, 208, 0.7);
+}
+
+.index-btn-original:hover{
+    color:rgba(127, 51, 208, 1)
 }
 
 
