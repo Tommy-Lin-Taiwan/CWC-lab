@@ -300,23 +300,15 @@
     width: 100%;
 }
 
-.group-pic{
-    max-width: 90%;
-    height: auto;
-    border-radius: 10%;
-}
-
 @media screen and (max-width: 768px){
     .group-pic{
-        max-width: 100%;
-        border-radius: 5%;
+        width: 85%;
     }
 }
 
 @media screen and (min-width: 768px){
     .group-pic{
-        max-width: 600px;
-        border-radius: 5%;
+        width: 75%;
     }
 }
 
@@ -344,5 +336,5 @@
 
 /* footer sections */
 .footer-bg{
-    background-color: rgba(50, 11, 191, 0.85);
+    background-color: rgb(20, 76, 71);
 }
