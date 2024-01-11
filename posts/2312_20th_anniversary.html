@@ -1,3 +1,5 @@
+<!-- Post template -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,10 +17,12 @@
     <!-- Global CSS properties-->
     <link rel="stylesheet" href="../styles/global.css">
 
-    <!-- instruments.css -->
-    <link rel="stylesheet" href="./instruments.css">
+    <!-- posts.css -->
+    <link rel="stylesheet" href="./posts.css">
     <title>Atomic Materials and Devices Lab</title>
 </head>
+
+
 
 <body>
     <!-- icon container -->
@@ -45,29 +49,29 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
                 <!-- Left links -->
                 <ul class="navbar-nav mb-2 mb-lg-0">
-                    <li class="nav-item fs-5">
-                        <a class="nav-link" href="../home.html">Home</a>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="../home.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-5" href="../news.html">News</a>
-                    </li>
-                    <li class="nav-item fs-5">
-                        <a class="nav-link" href="../director.html">Director</a>
-                    </li>
-                    <li class="nav-item fs-5">
-                        <a class="nav-link" href="../research.html">Research</a>
+                        <a class="nav-link fs-5 active" aria-current="page" href="../news.html">News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-5 active" aria-current="page" href="../facilities.html">Facilities</a>
+                        <a class="nav-link fs-5" href="../director.html">Director</a>
                     </li>
-                    <li class="nav-item fs-5">
-                        <a class="nav-link" href="../publication.html">Publications</a>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="../research.html">Research</a>
                     </li>
-                    <li class="nav-item fs-5">
-                        <a class="nav-link" href="../member.html">Member</a>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="../facilities.html">Facilities</a>
                     </li>
-                    <li class="nav-item fs-5">
-                        <a class="nav-link" href="../contact.html">Contact</a>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="../publication.html">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="../member.html">Member</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="../contact.html">Contact</a>
                     </li>
                 </ul>
                 <!-- Left links -->
@@ -78,19 +82,29 @@
     </nav>
 
 
-    <!-- Introduction -->
-    <div class="container w-50 mx-auto m-5"> <!-- responsive width required-->
+    <!-- Posts Module -->
+    <div class="container w-50-m mx-auto m-5">
         <div class="container-fluid">
-            <h3 class="mb-4 fs-2 text-center border-bottom">Innova AFM System</h3>
-            <!-- Image -->
+
+            <h3 class="mb-0 fs-2 border-bottom">20<sup>th</sup> Anniversary of AMD Lab</h3>
+
+            <p class="text-info mt-1 mb-4">2023.12</p>
+
+            <p class="mb-2">We were celebrating our 20th anniversary of our lab on 12/23/2023. Many formal members (more than 80 people) came back to NTU for a gathering. We had a wonderful time at the party!</p>
+
+            <!-- Picture div (Can be deleted if not needed) -->
             <div class="d-flex flex-wrap align-items-center justify-content-center">
-                <img src="../src/facilities_src/307 AFM.jpg" alt="" class="img-fluid d-block overflow-hidden shadow p-1 mb-3 rounded instrument-pic">
+                <!-- image source path 
+                            ..\src\posts_src\the_file_path
+                            -->
+                <img src="../src/group photos/2023 20th anniversary.jpg" alt="" class="img-fluid d-block overflow-hidden rounded">
             </div>
 
-            <p class="mb-2">With multiple display screens and pneumatic tables, the Innova AFM system has a nanometer-scale resolution with multiple modes availble with respect to different cantilevers. For this system, the most commonly used modes are tapping mode and piezoresponse mode. With a 10x optical microscope installed, we are able to lock onto specific features and obtain multiple informations, such as height, roughness and ferroelectric phases.</p>
-            <a href="../facilities.html"
+
+            <!-- Link back to news.html -->
+            <a href="../news.html"
                 class="d-block fs-5 my-3 link-info link-opacity-100 link-opacity-50-hover link-underline-none"><i
-                    class="fa fa-arrow-up me-3"></i>Back to Facilities</a>
+                    class="fa fa-arrow-up me-3"></i>Back to News</a>
         </div>
     </div>
 
@@ -107,7 +121,6 @@
             <div class="text-white"><i class="fa fa-copyright me-3"></i>Copyright 2023</div>
         </div>
     </footer>
-
 
     <!-- Popper.js-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
