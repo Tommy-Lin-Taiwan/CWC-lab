@@ -241,14 +241,6 @@
     cursor: pointer;
 }
 
-.general-link{
-    color: rgba(0, 51, 102, 0.9);
-}
-
-.general-link:hover{
-    color: rgba(0, 51, 102, 0.5);
-}
-
 
 /* Normal Links */
 .link-description{
@@ -263,6 +255,9 @@
     text-decoration: none;
 }
 
+.general-link{
+    color: rgba(0, 51, 102, 0.9);
+}
 
 .ellipsis{
     overflow: hidden;
@@ -292,6 +287,10 @@
 /* Hover Settings */
 .hoverable:hover {
     background-color: aqua;
+}
+
+.general-link:hover {
+    color: rgba(0, 51, 102, 0.5);
 }
 
 /* Member pic size settings */
