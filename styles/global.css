@@ -241,6 +241,15 @@
     cursor: pointer;
 }
 
+.general-link{
+    color: rgba(0, 51, 102, 0.9);
+}
+
+.general-link:hover{
+    color: rgba(0, 51, 102, 0.5);
+}
+
+
 /* Normal Links */
 .link-description{
     font-size: 10px;
