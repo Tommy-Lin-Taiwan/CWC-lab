@@ -85,38 +85,39 @@
     # Adjust Carousel image at /styles/home.css > .carousel-img
     -->
 
-    <!--
-
     <div id="carouselModule2" class="carousel slide carousel-fade m-3 w-75 mx-auto bg-dark" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselModule2" data-bs-slide-to="0" class="active" aria-current="true"
                 aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselModule2" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselModule2" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-            <div class="carousel-item active d-flex align-items-center justify-content-center overflow-hidden carousel-height" data-bs-interval="5000">
-                <img src="/src/Test-pic-2.jpg" class="d-block carousel-img"
-                    alt="pic-2">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5 class="text-white fw-bold">Sample pic 1</h5>
+    
+            <!-- data-bs-interval set to 5000 ms -->
+            <div class="carousel-item active d-flex align-items-center justify-content-center overflow-hidden carousel-height cursor-pointer"
+                data-bs-interval="5000" onclick="location.href=''">
+    
+                <!-- image source of this carousel item -->
+                <img src="./src/research_src/IMG-1599.JPG" class="d-block carousel-img" alt="pic-2">
+                <div class="carousel-caption d-block p-1 mb-0 bg-dark opacity-75">
+                    <h5 class="text-white fw-bold carousel-caption-inner carousel-caption-topic mb-0 p-0">An example of research carousel</h5>
+                    <p class="text-white carousel-caption-inner carousel-caption-content">Spins like a carousel all year
+                        round! (just kidding)</p>
                 </div>
             </div>
-            <div class="carousel-item d-flex align-items-center justify-content-center overflow-hidden carousel-height" data-bs-interval="5000">
-                <img src="/src/Test-pic-3.jpg" class="d-block carousel-img"
-                    alt="pic-3">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5 class="text-dark fw-bold">Sample pic 2</h5>
-                </div>
-            </div>
-            <div class="carousel-item d-flex align-items-center justify-content-center overflow-hidden carousel-height" data-bs-interval="5000">
-                <img src="/src/Test-pic-4.jpg" class="d-block carousel-img"
-                    alt="pic-4">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5 class="text-dark fw-bold">Sample pic 3</h5>
+    
+            <div class="carousel-item d-flex align-items-center justify-content-center overflow-hidden carousel-height cursor-pointer"
+                data-bs-interval="5000" onclick="location.href='">
+                <img src="./src/research_src/IMG-1600.JPG" class="d-block carousel-img" alt="pic-3">
+                <div class="carousel-caption d-block p-1 mb-0 bg-dark opacity-75">
+                    <h5 class="text-white fw-bold carousel-caption-inner carousel-caption-topic mb-0 p-0">RRRRRRRRRRRRR</h5>
+                    <p class="text-white carousel-caption-inner carousel-caption-content">for(i=0, i< n,
+                            i++){System.out.println("Congratulations");}</p>
                 </div>
             </div>
         </div>
+    
+        <!-- Control Panel on sides -->
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselModule2" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
@@ -127,12 +128,17 @@
         </button>
     </div>
 
--->
 
     <!-- Introduction Div -->
     <div class="text-center mx-auto my-5 w-75">
         <h2 class="mx-auto fw-bold mb-2"> Our Research </h2>
-        <p class="text-justify fs-6 mx-auto my-2 w-75">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est necessitatibus suscipit blanditiis totam ducimus laborum aperiam sequi alias laboriosam temporibus, placeat commodi, quod illum dolorum facere ab tempore debitis quos quaerat rem animi. Aperiam sapiente laborum velit tempore dolore temporibus eius dignissimos! Modi quia architecto, dolore rem atque ipsum amet!</p>
+        <p class="text-justify fs-6 mx-auto my-2 w-75">Welcome to our research group of Atomic Materials and Devices (AMD) in NTU ! We have been focusing on developing
+        two-dimensional (2D) atomic layer materials such as graphene, transition metal dichalcogenide (TMD), or other new 2D
+        materials for electronics, and energy applications. We are also dedicated to the growth of high-quality 2D materials and
+        their applications for next-generation electronics. In addition, since the energy issue is important in modern society,
+        we are dedicated to developing new atomic layer materials or nanomaterials for new energy applications such as
+        artificial photosynthesis, solar-to-fuel conversion, osmotic power generation etc. There are four research directions in
+        our group. (1)Growth of 2D materials (2) 2D electronics (3) Green and Blue energy (4) Perovskites.</p>
     </div>
 
 
@@ -192,25 +198,25 @@
 
     <!-- Main Image Section 2 -->
     <div class="justify-content-center div-md-max d-none d-md-block mx-auto mb-5 p-0 position-relative"
-        style="height: 300px; width: 400px;">
-        <img src="./src/icons/categories.jpg" alt="" class="img-fluid set-content-pic-size" style="width: 400px; height: 300px; z-index: 0;">
+        style="height: 500px; width: 700px;">
+        <img src="./src/icons/categories.jpg" alt="" class="img-fluid set-content-pic-size" style="width: 700px; height: 500px; z-index: 0;">
         <div class="position-absolute top-0 start-0 cursor-pointer text-center"
-            onclick="location.href='./2dmaterials.html'" style="z-index: 2; width: 150px; height: 150px;">
+            onclick="location.href='./2dmaterials.html'" style="z-index: 1; width: 280px; height: 250px;">
             <p class="hidden">2D Materials</p>
         </div>
         <div class="position-absolute top-0 end-0 cursor-pointer text-center"
-            onclick="location.href='./perovskites.html'" style="z-index: 2; width: 150px; height: 150px;">
+            onclick="location.href='./perovskites.html'" style="z-index: 1; width: 280px; height: 250px;">
             <p class="hidden">Perovskites</p>
         </div>
         <div class="position-absolute bottom-0 start-0 cursor-pointer text-center"
-            onclick="location.href='./blue+green_energy.html'" style="z-index: 2; width: 150px; height: 150px;">
+            onclick="location.href='./blue+green_energy.html'" style="z-index: 1; width: 280px; height: 250px;">
             <p class="hidden">Blue / Green Energy</p>
         </div>
         <div class="position-absolute bottom-0 end-0 cursor-pointer text-center"
-            onclick="location.href='./electronics.html'" style="z-index: 2; width: 150px; height: 150px;">
+            onclick="location.href='./electronics.html'" style="z-index: 1; width: 280px; height: 250px;">
             <p class="hidden">Electronics</p>
         </div>
-        <div class="position-absolute top-50 start-50 translate-middle cursor-pointer" onclick="location.href='./home.html'" style="z-index: 1; width: 150px; height: 150px; border-radius: 75px;">
+        <div class="position-absolute top-50 start-50 translate-middle cursor-pointer" onclick="location.href='./home.html'" style="z-index: 2; width: 250px; height: 250px; border-radius: 125px;">
             <p class="hidden">To home</p>
         </div>
     </div>
@@ -222,10 +228,7 @@
             <h6>The Chen Research Group</h6>
             <h6>Atomic Materials and Devices Lab</h6>
             <h6>National Taiwan University</h6>
-            <br>
-            <p class="text-white"><i class="fa fa-envelope me-3 "></i> abcdefg@gmail.com</p>
-            <p class="text-white"><i class="fa fa-phone me-3"></i> +886 0227137842</p>
-            <div class="text-white"><i class="fa fa-copyright me-3"></i>Copyright 2023</div>
+            
         </div>
     </footer>
 
