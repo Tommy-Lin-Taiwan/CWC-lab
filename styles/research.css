@@ -1,3 +1,13 @@
 /* The CSS properties for research*/
 
+.content-align{
+    text-align: justify;
+}
 
+.research-subtopic{
+    color: rgba(0, 51, 102, 0.9);
+}
+
+.research-subsubtopic{
+    color: rgba(0, 0, 204, 1)
+}
